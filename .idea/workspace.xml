@@ -6,7 +6,649 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f93e8801-9926-46b4-b038-eff18d813c3d" name="Default" comment="" />
+    <list default="true" id="f93e8801-9926-46b4-b038-eff18d813c3d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/RELEASE-NOTES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/RUNNING.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/bootstrap.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/catalina-tasks.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/catalina.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/catalina.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/commons-daemon-native.tar.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/commons-daemon.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/configtest.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/configtest.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/daemon.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/digest.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/digest.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/setclasspath.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/setclasspath.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/shutdown.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/shutdown.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/startup.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/startup.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/tomcat-juli.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/tomcat-native.tar.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/tool-wrapper.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/tool-wrapper.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/version.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/bin/version.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/conf/catalina.policy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/conf/catalina.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/conf/context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/conf/logging.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/conf/server.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/conf/tomcat-users.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/conf/tomcat-users.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/conf/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/annotations-api.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/catalina-ant.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/catalina-ha.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/catalina-storeconfig.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/catalina-tribes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/catalina.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/ecj-4.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/el-api.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/jasper-el.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/jasper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/jaspic-api.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/jsp-api.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/servlet-api.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/tomcat-api.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/tomcat-coyote.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/tomcat-dbcp.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/tomcat-i18n-es.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/tomcat-i18n-fr.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/tomcat-i18n-ja.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/tomcat-jdbc.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/tomcat-jni.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/tomcat-util-scan.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/tomcat-util.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/tomcat-websocket.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/lib/websocket-api.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/logs/catalina.2016-03-15.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/logs/catalina.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/logs/host-manager.2016-03-15.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/logs/localhost.2016-03-15.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/logs/localhost_access_log.2016-03-15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/logs/manager.2016-03-15.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/temp/safeToDelete.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/ROOT/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/ROOT/META-INF/context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/ROOT/META-INF/war-tracker" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/ROOT/WEB-INF/classes/com/fireaway/h/main/MainServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/ROOT/WEB-INF/lib/CloudMusic.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/ROOT/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/ROOT/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/BUILDING.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/RELEASE-NOTES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/RUNNING.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/aio.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/api/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/appdev/build.xml.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/appdev/deployment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/appdev/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/appdev/installation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/appdev/introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/appdev/processes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/appdev/sample/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/appdev/sample/docs/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/appdev/sample/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/appdev/sample/sample.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/appdev/sample/sample.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/appdev/sample/src/mypackage/Hello.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/appdev/sample/web/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/appdev/sample/web/hello.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/appdev/sample/web/images/tomcat.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/appdev/sample/web/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/appdev/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/appdev/web.xml.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/apr.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/architecture/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/architecture/overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/architecture/requestProcess.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/architecture/requestProcess/authentication-process.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/architecture/requestProcess/request-process.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/architecture/startup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/architecture/startup/serverStartup.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/architecture/startup/serverStartup.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/balancer-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/building.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/cgi-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/changelog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/class-loader-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/cluster-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/comments.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/ajp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/automatic-deployment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/cluster-channel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/cluster-deployer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/cluster-interceptor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/cluster-listener.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/cluster-manager.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/cluster-membership.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/cluster-receiver.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/cluster-sender.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/cluster-valve.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/cluster.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/context.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/cookie-processor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/credentialhandler.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/engine.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/executor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/filter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/globalresources.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/host.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/http.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/jar-scan-filter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/jar-scanner.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/listeners.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/loader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/manager.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/realm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/resources.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/server.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/service.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/sessionidgenerator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/systemprops.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/config/valve.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/connectors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/default-servlet.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/deployer-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/developers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/elapi/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/extras.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/funcspecs/fs-admin-apps.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/funcspecs/fs-admin-objects.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/funcspecs/fs-admin-opers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/funcspecs/fs-default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/funcspecs/fs-jdbc-realm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/funcspecs/fs-jndi-realm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/funcspecs/fs-memory-realm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/funcspecs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/funcspecs/mbean-names.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/html-manager-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/add.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/asf-feather.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/asf-logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/code.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/cors-flowchart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/design.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/docs-stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/docs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/fix.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/fonts/OpenSans400.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/fonts/OpenSans400italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/fonts/OpenSans600.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/fonts/OpenSans600italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/fonts/OpenSans700.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/fonts/OpenSans700italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/fonts/fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/printer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/tomcat.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/tomcat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/tomcat.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/update.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/images/void.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/jasper-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/jdbc-pool.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/jndi-datasource-examples-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/jndi-resources-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/jspapi/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/logging.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/manager-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/maven-jars.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/mbeans-descriptor-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/monitoring.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/proxy-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/realm-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/rewrite.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/security-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/security-manager-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/servletapi/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/setup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/ssi-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/ssl-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/tribes/developers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/tribes/faq.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/tribes/interceptors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/tribes/introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/tribes/membership.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/tribes/setup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/tribes/status.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/tribes/transport.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/virtual-hosting-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/web-socket-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/websocketapi/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/windows-auth-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/docs/windows-service-howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/WEB-INF.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/CookieExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/CookieExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/HelloWorldExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/HelloWorldExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/LocalStrings.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/LocalStrings_en.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/LocalStrings_es.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/LocalStrings_fr.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/LocalStrings_pt.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/RequestHeaderExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/RequestHeaderExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/RequestInfoExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/RequestInfoExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/RequestParamExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/RequestParamExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/ServletToJsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/ServletToJsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/SessionExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/SessionExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/async/Async0$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/async/Async0.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/async/Async0.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/async/Async1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/async/Async1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/async/Async1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/async/Async2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/async/Async2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/async/Async2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/async/Async3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/async/Async3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/async/Stockticker$Stock.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/async/Stockticker$TickListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/async/Stockticker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/async/Stockticker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/cal/Entries.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/cal/Entries.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/cal/Entry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/cal/Entry.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/cal/JspCalendar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/cal/JspCalendar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/cal/TableBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/cal/TableBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/checkbox/CheckTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/checkbox/CheckTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/colors/ColorGameBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/colors/ColorGameBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/dates/JspCalendar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/dates/JspCalendar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/error/Smart.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/error/Smart.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/examples/ExampleTagBase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/examples/ExampleTagBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/examples/FooTag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/examples/FooTag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/examples/FooTagExtraInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/examples/FooTagExtraInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/examples/LogTag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/examples/LogTag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/examples/ShowSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/examples/ShowSource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/examples/ValuesTag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/examples/ValuesTag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/filters/ExampleFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/filters/ExampleFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/http2/SimpleImagePush.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/http2/SimpleImagePush.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/BookBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/BookBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/ValuesBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/ValuesBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/FindBookSimpleTag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/FindBookSimpleTag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/HelloWorldSimpleTag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/HelloWorldSimpleTag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/RepeatSimpleTag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/RepeatSimpleTag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/listeners/ContextListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/listeners/ContextListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/listeners/SessionListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/listeners/SessionListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter$CounterListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter$NumberWriterListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/num/NumberGuessBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/num/NumberGuessBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/sessions/DummyCart.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/sessions/DummyCart.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/util/CookieFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/util/CookieFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/util/HTMLFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/util/HTMLFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/validators/DebugValidator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/validators/DebugValidator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/ExamplesConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/ExamplesConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/chat/ChatAnnotation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/chat/ChatAnnotation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/Client$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage$ParseException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardContextListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardContextListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$3$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$MessageType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$Player.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/AbstractWebsocketMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/AbstractWebsocketMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/BinaryWebsocketMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/BinaryWebsocketMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/CloseWebsocketMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/CloseWebsocketMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/StringWebsocketMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/StringWebsocketMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation$CompletedFuture.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$EchoMessageHandlerBinary.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$EchoMessageHandlerText.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/echo/servers.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/snake/Direction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/snake/Direction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/snake/Location$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/snake/Location.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/snake/Location.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/snake/Snake.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/snake/Snake.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/jsp/applet/Clock2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/jsp/debug-taglib.tld" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/jsp/example-taglib.tld" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/jsp/jsp.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/jsp2/jsp2-example-taglib.tld" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/tags/displayProducts.tag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/tags/helloWorld.tag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/tags/panel.tag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/async/async1.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/async/async1.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/async/async3.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/async/async3.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/async/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/async/index.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/cal/Entries.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/cal/Entry.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/cal/JspCalendar.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/cal/TableBean.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/cal/cal1.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/cal/cal1.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/cal/cal2.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/cal/cal2.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/cal/calendar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/cal/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/checkbox/CheckTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/checkbox/check.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/checkbox/checkresult.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/checkbox/checkresult.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/checkbox/cresult.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/colors/ColorGameBean.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/colors/clr.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/colors/colors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/colors/colrs.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/colors/colrs.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/dates/date.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/dates/date.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/dates/date.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/error/er.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/error/err.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/error/err.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/error/error.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/error/errorpge.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/error/errorpge.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/forward/forward.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/forward/forward.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/forward/fwd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/forward/one.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/forward/one.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/forward/two.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/images/code.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/images/execute.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/images/read.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/images/return.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/include/foo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/include/foo.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/include/foo.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/include/inc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/include/include.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/include/include.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/el/Functions.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/el/ValuesBean.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/el/ValuesTag.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/el/basic-arithmetic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/el/basic-arithmetic.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/el/basic-arithmetic.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/el/basic-comparisons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/el/composite.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/el/composite.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/el/composite.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/el/functions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/el/functions.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/el/functions.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/el/implicit-objects.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/el/implicit-objects.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/el/implicit-objects.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/jspattribute/FooBean.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/jspattribute/HelloWorldSimpleTag.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/jspattribute/ShuffleSimpleTag.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/jspattribute/TileSimpleTag.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/jspattribute/jspattribute.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/jspattribute/shuffle.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/jspx/basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/jspx/basic.jspx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/jspx/basic.jspx.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/jspx/svgexample.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/jspx/textRotate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/jspx/textRotate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/jspx/textRotate.jspx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/jspx/textRotate.jspx.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/misc/EchoAttributesTag.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/misc/coda.jspf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/misc/coda.jspf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/misc/config.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/misc/config.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/misc/config.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/misc/dynamicattrs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/misc/dynamicattrs.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/misc/dynamicattrs.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/misc/prelude.jspf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/misc/prelude.jspf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/simpletag/BookBean.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/simpletag/FindBookSimpleTag.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/simpletag/Functions.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/simpletag/HelloWorldSimpleTag.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/simpletag/RepeatSimpleTag.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/simpletag/book.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/simpletag/book.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/simpletag/book.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/simpletag/hello.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/simpletag/hello.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/simpletag/hello.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/simpletag/repeat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/simpletag/repeat.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/simpletag/repeat.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/tagfiles/displayProducts.tag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/tagfiles/hello.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/tagfiles/hello.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/tagfiles/hello.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/tagfiles/helloWorld.tag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/tagfiles/panel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/tagfiles/panel.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/tagfiles/panel.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/tagfiles/panel.tag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/tagfiles/products.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/tagfiles/products.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsp2/tagfiles/products.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsptoserv/ServletToJsp.java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsptoserv/hello.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsptoserv/hello.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsptoserv/jsptoservlet.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsptoserv/jsptoservlet.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/jsptoserv/jts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/num/numguess.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/num/numguess.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/num/numguess.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/plugin/applet/Clock2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/plugin/applet/Clock2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/plugin/plugin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/plugin/plugin.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/plugin/plugin.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/plugin/plugin.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/security/protected/error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/security/protected/error.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/security/protected/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/security/protected/index.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/security/protected/login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/security/protected/login.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/sessions/DummyCart.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/sessions/carts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/sessions/carts.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/sessions/carts.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/sessions/crt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/simpletag/foo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/simpletag/foo.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/simpletag/foo.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/snp/snoop.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/snp/snoop.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/snp/snoop.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/source.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/source.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/tagplugin/choose.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/tagplugin/choose.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/tagplugin/choose.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/tagplugin/foreach.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/tagplugin/foreach.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/tagplugin/foreach.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/tagplugin/howto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/tagplugin/if.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/tagplugin/if.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/tagplugin/if.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/tagplugin/notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/xml/xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/xml/xml.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/jsp/xml/xml.jsp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/servlets/cookies.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/servlets/helloworld.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/servlets/images/code.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/servlets/images/execute.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/servlets/images/return.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/servlets/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/servlets/nonblocking/bytecounter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/servlets/reqheaders.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/servlets/reqinfo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/servlets/reqparams.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/servlets/sessions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/websocket/chat.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/websocket/drawboard.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/websocket/echo.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/websocket/index.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/examples/websocket/snake.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/host-manager/META-INF/context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/host-manager/WEB-INF/jsp/401.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/host-manager/WEB-INF/jsp/403.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/host-manager/WEB-INF/jsp/404.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/host-manager/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/host-manager/images/add.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/host-manager/images/asf-logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/host-manager/images/code.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/host-manager/images/design.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/host-manager/images/docs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/host-manager/images/fix.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/host-manager/images/tomcat.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/host-manager/images/update.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/host-manager/images/void.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/host-manager/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/host-manager/manager.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/META-INF/context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/WEB-INF/jsp/401.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/WEB-INF/jsp/403.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/WEB-INF/jsp/404.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/WEB-INF/jsp/connectorCiphers.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/WEB-INF/jsp/sessionDetail.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/WEB-INF/jsp/sessionsList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/images/add.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/images/asf-logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/images/code.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/images/design.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/images/docs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/images/fix.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/images/tomcat.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/images/update.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/images/void.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/status.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps/manager/xform.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/work/Catalina/localhost/localhost.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/work/Catalina/localhost/manager/org/apache/jsp/WEB_002dINF/jsp/_401_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/work/Catalina/localhost/manager/org/apache/jsp/WEB_002dINF/jsp/_401_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/work/Catalina/localhost/manager/org/apache/jsp/index_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/work/Catalina/localhost/manager/org/apache/jsp/index_jsp.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/WebCloudMusicExporter_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/WebCloudMusicExporter_war.xml" />
+    </list>
     <ignored path="WebCloudMusicExporter.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,8 +673,8 @@
       <file leaf-file-name="MainServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/fireaway/h/main/MainServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.80862534">
-              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.5660377">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -168,62 +810,6 @@
               <option name="myItemId" value="tomcat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apache-tomcat-9.0.0.M3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebCloudMusicExporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebCloudMusicExporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tomcat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apache-tomcat-9.0.0.M3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Catalina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="localhost" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebCloudMusicExporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebCloudMusicExporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tomcat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apache-tomcat-9.0.0.M3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -252,8 +838,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
@@ -789,7 +1375,7 @@
       <created>1458005523231</created>
       <option name="number" value="Default" />
       <updated>1458005523231</updated>
-      <workItem from="1458005525008" duration="2186000" />
+      <workItem from="1458005525008" duration="2403000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1458006172328</created>
@@ -819,18 +1405,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2186000" />
+    <option name="totallyTimeSpent" value="2403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="741" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35955057" sideWeight="0.6117825" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35955057" sideWeight="0.6117825" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -887,8 +1473,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fireaway/h/main/MainServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80862534">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.5660377">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding />
         </state>
       </provider>
