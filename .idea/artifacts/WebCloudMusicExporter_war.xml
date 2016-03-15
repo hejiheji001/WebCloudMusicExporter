@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WebCloudMusicExporter:war">
+    <output-path>$PROJECT_DIR$/tomcat/apache-tomcat-9.0.0.M3/webapps</output-path>
+    <root id="archive" name="WebCloudMusicExporter_war.war">
+      <element id="artifact" artifact-name="WebCloudMusicExporter:war exploded" />
+    </root>
+  </artifact>
+</component>
