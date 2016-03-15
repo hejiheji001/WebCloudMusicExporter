@@ -33,7 +33,6 @@ public class MainServlet extends HttpServlet {
         String listname = "";
         JSONWriter jw = JSONFactory.instance().makeWriter(response.getWriter());
         Map<String, Object> songObj = new TreeMap<>();
-        List<Map<String, Object>> songlist = new ArrayList<>();
         jw.startObject();
         jw.objectValue("result", res);
         jw.startArray("songs");
