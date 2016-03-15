@@ -1,8 +1,80 @@
-<html>
-  <head>
-    <title>CloudMusicOneClick</title>
-  </head>
-  <body>
-  HELLO
-  </body>
-</html>
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cloud Music One Click</title>
+	<script src="./js/jquery/jquery.min.js"></script>
+	<link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<script src="./js/bootstrap/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class=".col-md-12">
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">Cloud Music One Click</a>
+						</div>
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="/cloudmusic">Index</a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Action</a></li>
+										<li><a href="#">Another action</a></li>
+										<li><a href="#">Something else here</a></li>
+										<li role="separator" class="divider"></li>
+										<li><a href="/">My Blog</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Try A Music Id or Playlist ID</h3>
+					</div>
+					<div class="panel-body">
+						<div class="alert alert-warning" role="alert">
+							<p>Auto: http://music.163.com/song?id=29572501  =  Music ID: 29572501  HINT: Keyword is "song"</p>
+							<p>Auto: http://music.163.com/#/playlist?id=41370921  =  Playlist ID: 41370921  HINT: Keyword is "playlist"</p>
+						</div>
+						<div class="list-group">
+							<div class="input-group">
+								<input type="text" class="form-control" aria-label="Text input with segmented button dropdown" placeholder='Try a link and "Go Auto" or give a specific value type.' id="input">
+								<div class="input-group-btn">
+									<a type="button" class="btn btn-success" id="auto">Go Auto
+									</a>
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<span class="caret"></span>
+									<span class="sr-only">More</span>
+									</button>
+									<ul class="dropdown-menu dropdown-menu-right">
+										<li><a href="#" id="music">Music ID</a></li>
+										<li><a href="#" id="playlist">Playlist ID</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./js/main.js"></script>
+</div>
+</body>

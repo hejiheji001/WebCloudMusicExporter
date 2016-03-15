@@ -8,16 +8,11 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="CloudMusic" />
+          <element id="library" level="project" name="catalina" />
+          <element id="library" level="project" name="javax.servlet:javax.servlet-api:3.1.0" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="WebCloudMusicExporter/web/Web3" />
-      <element id="javaee-facet-resources" facet="WebCloudMusicExporter/web/Web5" />
-      <element id="javaee-facet-resources" facet="WebCloudMusicExporter/web/Web6" />
-      <element id="javaee-facet-resources" facet="WebCloudMusicExporter/web/Web7" />
-      <element id="javaee-facet-resources" facet="WebCloudMusicExporter/web/Web2" />
-      <element id="javaee-facet-resources" facet="WebCloudMusicExporter/web/Web4" />
       <element id="javaee-facet-resources" facet="WebCloudMusicExporter/web/Web" />
-      <element id="javaee-facet-resources" facet="WebCloudMusicExporter/web/Web8" />
     </root>
   </artifact>
 </component>

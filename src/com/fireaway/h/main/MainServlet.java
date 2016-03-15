@@ -10,8 +10,12 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.util.*;
+import java.io.OutputStreamWriter;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.TreeMap;
 
 
 /**
@@ -26,15 +30,16 @@ public class MainServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("application/javascript");
+        request.setCharacterEncoding("UTF-8");
+        response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");
         String query = request.getQueryString();
         String res = "false";
         String listname = "";
+
         JSONWriter jw = JSONFactory.instance().makeWriter(response.getWriter());
         Map<String, Object> songObj = new TreeMap<>();
         jw.startObject();
-        jw.objectValue("result", res);
         jw.startArray("songs");
 
         if(query != null) {
@@ -43,7 +48,6 @@ public class MainServlet extends HttpServlet {
                 String type = q[0];
                 String val = q[1];
                 res = "true";
-
                 switch (type){
                     case "id":
                         String[] info = getSongInfo(val);
@@ -70,14 +74,29 @@ public class MainServlet extends HttpServlet {
             }
         }
 
+        // Set JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=UTF8 -Dsun.jnu.encoding=UTF8" in catalina.sh line 249
         jw.endArray();
         jw.objectValue("listname", listname);
+        jw.objectValue("result", res);
+//        jw.objectValue("Default Charset=", Charset.defaultCharset());
+//        jw.objectValue("file.encoding=", System.getProperty("file.encoding"));
+//        jw.objectValue("Default Charset=", Charset.defaultCharset());
+//        jw.objectValue("Default Charset in Use=", getDefaultCharSet());
         jw.endObject();
         jw.flush();
         jw.close();
+
+
+
     }
 
-    private String[] getSongInfo(String songId){
+    private static String getDefaultCharSet() {
+        OutputStreamWriter writer = new OutputStreamWriter(new ByteArrayOutputStream());
+        String enc = writer.getEncoding();
+        return enc;
+    }
+
+    private String[] getSongInfo(String songId) throws Exception{
         String[] result = new String[2];
         MusicUtils mu = new MusicUtils(songId);
         Map music = mu.getBestMusic().object();
@@ -86,6 +105,7 @@ public class MainServlet extends HttpServlet {
         String bestMusicId = music.get("dfsId").toString();
 
         String fileName = artistName + " - " + songName  + "." + music.get("extension");
+
         String durl = au.getDownloadUrl(bestMusicId);
 
         result[0] = fileName;

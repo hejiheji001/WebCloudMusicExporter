@@ -1,8 +1,14 @@
 <component name="ArtifactManager">
   <artifact type="war" name="WebCloudMusicExporter:war">
     <output-path>$PROJECT_DIR$/out</output-path>
-    <root id="archive" name="WebCloudMusicExporter_war.war">
+    <root id="archive" name="cloudmusic.war">
       <element id="artifact" artifact-name="WebCloudMusicExporter:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="catalina" />
+          <element id="library" level="project" name="javax.servlet:javax.servlet-api:3.1.0" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>

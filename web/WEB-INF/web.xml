@@ -14,4 +14,21 @@
 		<servlet-name>MainServlet</servlet-name>
 		<url-pattern>/get/*</url-pattern>
 	</servlet-mapping>
+	<filter>
+		<filter-name>Set Character Encoding</filter-name>
+		<filter-class>com.fireaway.h.main.SetCharacterEncoding</filter-class>
+		<async-supported>true</async-supported>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+		<init-param>
+			<param-name>ignore</param-name>
+			<param-value>false</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>Set Character Encoding</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
 </web-app>
