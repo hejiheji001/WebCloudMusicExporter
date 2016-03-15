@@ -7,66 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f93e8801-9926-46b4-b038-eff18d813c3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/catalina.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fireaway/h/main/SetCharacterEncoding.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/main.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/WebCloudMusicExporter_war.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/RELEASE-NOTES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/asf-logo-wide.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/asf-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/bg-button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/bg-middle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/bg-nav-item.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/bg-nav.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/bg-upper.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/build.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/tomcat-power.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/tomcat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/tomcat.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/tomcat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/tomcat.svg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/WEB-INF/classes/com/fireaway/h/main/MainServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/WEB-INF/classes/com/fireaway/h/main/MainServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WebCloudMusicExporter/com/fireaway/h/main/MainServlet.class" afterPath="$PROJECT_DIR$/out/production/WebCloudMusicExporter/com/fireaway/h/main/MainServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/WebCloudMusicExporter_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/WebCloudMusicExporter_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/WebCloudMusicExporter_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/WebCloudMusicExporter_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebCloudMusicExporter.iml" afterPath="$PROJECT_DIR$/WebCloudMusicExporter.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/index.html" afterPath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fireaway/h/main/MainServlet.java" afterPath="$PROJECT_DIR$/src/com/fireaway/h/main/MainServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/bin/catalina.sh" afterPath="$PROJECT_DIR$/tomcat/bin/catalina.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/bin/configtest.sh" afterPath="$PROJECT_DIR$/tomcat/bin/configtest.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/bin/daemon.sh" afterPath="$PROJECT_DIR$/tomcat/bin/daemon.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/bin/digest.sh" afterPath="$PROJECT_DIR$/tomcat/bin/digest.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/bin/setclasspath.sh" afterPath="$PROJECT_DIR$/tomcat/bin/setclasspath.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/bin/shutdown.sh" afterPath="$PROJECT_DIR$/tomcat/bin/shutdown.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/bin/startup.sh" afterPath="$PROJECT_DIR$/tomcat/bin/startup.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/bin/tool-wrapper.sh" afterPath="$PROJECT_DIR$/tomcat/bin/tool-wrapper.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/bin/version.sh" afterPath="$PROJECT_DIR$/tomcat/bin/version.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/conf/server.xml" afterPath="$PROJECT_DIR$/tomcat/conf/server.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/main.js" afterPath="$PROJECT_DIR$/web/js/main.js" />
     </list>
     <ignored path="WebCloudMusicExporter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,12 +35,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainServlet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fireaway/h/main/MainServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45736435">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44785276">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+              <folding>
+                <marker date="1458023614000" expanded="true" signature="1113:1192" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,7 +60,7 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.458333">
+            <state vertical-scroll-proportion="-2.875">
               <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding />
             </state>
@@ -112,9 +70,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="10.0">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding />
+            <state vertical-scroll-proportion="-3.875">
+              <caret line="58" column="55" selection-start-line="58" selection-start-column="55" selection-end-line="58" selection-end-column="55" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,8 +118,9 @@
       <list>
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/com/fireaway/h/main/SetCharacterEncoding.java" />
-        <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/src/com/fireaway/h/main/MainServlet.java" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/js/main.js" />
       </list>
     </option>
   </component>
@@ -301,7 +262,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,11 +276,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebCloudMusicExporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebCloudMusicExporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -884,7 +863,7 @@
       <created>1458005523231</created>
       <option name="number" value="Default" />
       <updated>1458005523231</updated>
-      <workItem from="1458005525008" duration="8288000" />
+      <workItem from="1458005525008" duration="12170000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1458006172328</created>
@@ -910,11 +889,17 @@
       <option name="project" value="LOCAL" />
       <updated>1458007470466</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Init">
+      <created>1458018141022</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1458018141022</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8288000" />
+    <option name="totallyTimeSpent" value="12170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="741" extended-state="0" />
@@ -925,14 +910,14 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33386838" sideWeight="0.27114803" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4317817" sideWeight="0.13217522" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33386838" sideWeight="0.728852" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4317817" sideWeight="0.8678248" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -972,14 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.458333">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/io/BufferedWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.083333336">
@@ -1001,19 +978,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
+    <entry file="file://$PROJECT_DIR$/src/com/fireaway/h/main/MainServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.0">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fireaway/h/main/MainServlet.java">
+    <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45736435">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        <state vertical-scroll-proportion="-3.875">
+          <caret line="58" column="55" selection-start-line="58" selection-start-column="55" selection-end-line="58" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.875">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44785276">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <marker date="1458023614000" expanded="true" signature="1113:1192" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
