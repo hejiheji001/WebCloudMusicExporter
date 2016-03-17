@@ -47,7 +47,7 @@
 		}else{
 			alert("You must input something");
 		}
-	}
+	};
 
 	var getInfo = function(u){
 		var str =  '<a href="${durl}" download="${name}" target="_blank" class="list-group-item list-group-item-info songItem">\

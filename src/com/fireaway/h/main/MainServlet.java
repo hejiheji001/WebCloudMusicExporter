@@ -69,6 +69,7 @@ public class MainServlet extends HttpServlet {
                         break;
                 }
             }catch (Exception e){
+                res = "false";
                 e.printStackTrace();
                 songObj.put("nodata", "null");
             }
@@ -103,10 +104,11 @@ public class MainServlet extends HttpServlet {
         String artistName = mu.getArtist();
         String songName = mu.getSongName();
         String bestMusicId = music.get("dfsId").toString();
+        String ext = music.get("extension").toString();
 
-        String fileName = artistName + " - " + songName  + "." + music.get("extension");
+        String fileName = artistName + " - " + songName  + "." + ext;
 
-        String durl = au.getDownloadUrl(bestMusicId);
+        String durl = au.getDownloadUrl(bestMusicId, ext);
 
         result[0] = fileName;
         result[1] = durl;
