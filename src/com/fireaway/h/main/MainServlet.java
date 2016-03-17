@@ -14,6 +14,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -61,15 +62,45 @@ public class MainServlet extends HttpServlet {
                         listname = playList.get(len - 1);
                         playList.remove(len - 1);
                         for (String s : playList){
-                            String[] t = getSongInfo(s);
-                            songObj.put("name", t[0]);
-                            songObj.put("durl",t[1]);
-                            jw.writeObject(songObj);
+                            try {
+                                String[] t = getSongInfo(s);
+                                songObj.put("name", t[0]);
+                                songObj.put("durl", t[1]);
+                                jw.writeObject(songObj);
+                            }catch (NullPointerException ee){
+                                ee.printStackTrace();
+                                songObj.put("name", "Song ID: " + s + " Failed");
+                                songObj.put("durl", "#");
+                                jw.writeObject(songObj);
+                            }
+                        }
+                        break;
+                    case "playlistExtra":
+                        List<Map<String, Object>> playListJson = ju.getPlayListBestMusic(val);
+                        int JsonLen = playListJson.size();
+                        listname = playListJson.get(JsonLen - 1).get("name").toString();
+                        playListJson.remove(JsonLen - 1);
+                        for (Map<String, Object> j : playListJson){
+                            String s = j.get("id").toString();
+                            String n = j.get("name").toString();
+                            String e = j.get("extension").toString();
+                            String b = j.get("dfsId").toString();
+                            String d = au.getDownloadUrl(b, e);
+                            try{
+                                songObj.put("name", n + "." + e);
+                                songObj.put("durl", d);
+                                jw.writeObject(songObj);
+                            }catch (Exception eee){
+                                eee.printStackTrace();
+                                songObj.put("name", "Song ID: " + s + " Failed");
+                                songObj.put("durl", "#");
+                                jw.writeObject(songObj);
+                            }
                         }
                         break;
                 }
             }catch (Exception e){
-                res = "false";
+                res = e.getMessage();
                 e.printStackTrace();
                 songObj.put("nodata", "null");
             }

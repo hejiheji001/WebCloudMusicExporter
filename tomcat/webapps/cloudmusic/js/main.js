@@ -21,7 +21,7 @@
 
 	playlist.on({
 		click: function(e){
-			goMethod("playlist");
+			goMethod("playlistExtra");
 		}
 	});
 
@@ -44,11 +44,12 @@
 				if(val.indexOf("song") > -1){
 					method = "id";
 				}else if(val.indexOf("playlist") > -1){
-					method = "playlist";
+					method = "playlistExtra";
 				}else{
 					alert("Auto detect failed, maybe specific it.");
 					auto.removeClass("disabled");
 					auto.html("Go Auto");
+					toggle.removeClass("disabled");
 					return;
 				}
 				val = /=(\d+)?/.exec(val)[1];
@@ -72,10 +73,17 @@
 				var num = data.songs.length;
 				var songs = data.songs;
 				var res = data.result;
+				var list = data.listname;
 				var dom = [];
+				var hint = "";
 				songlist.slideDown();
 				if(res == "true"){
-					$("#num").html(num);
+					if(list){
+						hint = "WOW! In List: " + list + " We Got " + num + " Songs!";
+					}else{
+						hint = "WOW! We Got " + num + " Song!";
+					}
+					$("#num").html(hint);
 					for (var i = 0; i < num; i++) {
 						var s = songs[i];
 						var d = s["durl"];
@@ -86,6 +94,7 @@
 						dom.push(tem);
 					}
 				}
+
 				auto.removeClass("disabled");
                 auto.html("Go Auto");
 				toggle.removeClass("disabled");
