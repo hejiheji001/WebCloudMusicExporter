@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f93e8801-9926-46b4-b038-eff18d813c3d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/WEB-INF/classes/com/fireaway/h/main/MainServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/WEB-INF/classes/com/fireaway/h/main/MainServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/WEB-INF/lib/CloudMusic.jar" afterPath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/WEB-INF/lib/CloudMusic.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/cloudmusic.war" afterPath="$PROJECT_DIR$/out/cloudmusic.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WebCloudMusicExporter/com/fireaway/h/main/MainServlet.class" afterPath="$PROJECT_DIR$/out/production/WebCloudMusicExporter/com/fireaway/h/main/MainServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/index.html" afterPath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/js/main.js" afterPath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/js/main.js" />
     </list>
     <ignored path="WebCloudMusicExporter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -205,6 +202,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WebCloudMusicExporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebCloudMusicExporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebCloudMusicExporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomcat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebCloudMusicExporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebCloudMusicExporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomcat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapps" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -779,7 +808,7 @@
       <updated>1458005523231</updated>
       <workItem from="1458005525008" duration="12170000" />
       <workItem from="1458172195222" duration="148000" />
-      <workItem from="1458172486632" duration="4009000" />
+      <workItem from="1458172486632" duration="4164000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1458006172328</created>
@@ -823,11 +852,23 @@
       <option name="project" value="LOCAL" />
       <updated>1458176921946</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="API Fix">
+      <created>1458176975143</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1458176975143</updated>
+    </task>
+    <task id="LOCAL-00009" summary="API Fix">
+      <created>1458177041965</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1458177041965</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16327000" />
+    <option name="totallyTimeSpent" value="16482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="921" height="768" extended-state="6" />
