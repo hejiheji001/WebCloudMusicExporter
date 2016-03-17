@@ -78,7 +78,7 @@ public class MainServlet extends HttpServlet {
                     case "playlistExtra":
                         List<Map<String, Object>> playListJson = ju.getPlayListBestMusic(val);
                         int JsonLen = playListJson.size();
-                        listname = playListJson.get(JsonLen - 1).get("name").toString();
+                        listname = playListJson.get(JsonLen - 1).get("listname").toString();
                         playListJson.remove(JsonLen - 1);
                         for (Map<String, Object> j : playListJson){
                             String s = j.get("id").toString();
