@@ -44,3 +44,17 @@
 17-Mar-2016 01:22:26.543 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
 17-Mar-2016 01:22:26.552 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
 17-Mar-2016 01:22:26.553 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1689 ms
+Download audition
+17-Mar-2016 01:31:55.440 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+17-Mar-2016 01:32:47.472 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/cloudmusic]
+17-Mar-2016 01:32:47.583 WARNING [localhost-startStop-2] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+17-Mar-2016 01:32:47.585 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/webapps/cloudmusic.war
+17-Mar-2016 01:32:48.326 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/webapps/cloudmusic.war has finished in 741 ms
+17-Mar-2016 01:32:58.330 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/cloudmusic]
+17-Mar-2016 01:32:58.352 WARNING [localhost-startStop-3] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+17-Mar-2016 01:32:58.353 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/webapps/cloudmusic.war
+17-Mar-2016 01:32:58.610 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/webapps/cloudmusic.war has finished in 257 ms
+17-Mar-2016 01:33:09.119 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/cloudmusic]
+17-Mar-2016 01:33:09.135 WARNING [localhost-startStop-4] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+17-Mar-2016 01:33:09.135 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/webapps/cloudmusic.war
+17-Mar-2016 01:33:09.308 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/webapps/cloudmusic.war has finished in 172 ms

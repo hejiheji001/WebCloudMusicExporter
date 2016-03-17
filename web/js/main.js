@@ -25,6 +25,14 @@
 		}
 	});
 
+    input.on({
+        keydown: function(e){
+            if(e.keyCode == 13){
+                goMethod("auto");
+            }
+        }
+    })
+
 	var goMethod = function(method){
 		songlist.slideUp();
 		var val = input.val();
@@ -39,6 +47,8 @@
 					method = "playlist";
 				}else{
 					alert("Auto detect failed, maybe specific it.");
+					auto.removeClass("disabled");
+					auto.html("Go Auto");
 					return;
 				}
 				val = /=(\d+)?/.exec(val)[1];
