@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="WebCloudMusicExporter:war exploded" />
+      <artifact name="WebCloudMusicExporter:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -11,15 +11,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/WEB-INF/lib/CloudMusic.jar" afterPath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/WEB-INF/lib/CloudMusic.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/cloudmusic.war" afterPath="$PROJECT_DIR$/out/cloudmusic.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WebCloudMusicExporter/com/fireaway/h/main/MainServlet.class" afterPath="$PROJECT_DIR$/out/production/WebCloudMusicExporter/com/fireaway/h/main/MainServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/classes/com/fireaway/h/main/MainServlet.class" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/classes/com/fireaway/h/main/MainServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/lib/CloudMusic.jar" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/lib/CloudMusic.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/WebCloudMusicExporter_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/WebCloudMusicExporter_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebCloudMusicExporter.iml" afterPath="$PROJECT_DIR$/WebCloudMusicExporter.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fireaway/h/main/MainServlet.java" afterPath="$PROJECT_DIR$/src/com/fireaway/h/main/MainServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/js/main.js" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/main.js" afterPath="$PROJECT_DIR$/web/js/main.js" />
     </list>
     <ignored path="WebCloudMusicExporter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,8 +37,8 @@
       <file leaf-file-name="MainServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/fireaway/h/main/MainServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34">
-              <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.22">
+              <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -213,20 +205,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WebCloudMusicExporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebCloudMusicExporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebCloudMusicExporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -801,7 +779,7 @@
       <updated>1458005523231</updated>
       <workItem from="1458005525008" duration="12170000" />
       <workItem from="1458172195222" duration="148000" />
-      <workItem from="1458172486632" duration="3909000" />
+      <workItem from="1458172486632" duration="3952000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1458006172328</created>
@@ -833,11 +811,17 @@
       <option name="project" value="LOCAL" />
       <updated>1458018141022</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="API Fix">
+      <created>1458176884887</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1458176884887</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16227000" />
+    <option name="totallyTimeSpent" value="16270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="921" height="768" extended-state="6" />
@@ -884,7 +868,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="API Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="API Fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1055,8 +1040,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fireaway/h/main/MainServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34">
-          <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.22">
+          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
           <folding />
         </state>
       </provider>
