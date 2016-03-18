@@ -21,7 +21,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="#">Cloud Music One Click V0.17.03</a>
+							<a class="navbar-brand" href="#">Cloud Music One Click V0.18.03</a>
 						</div>
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
@@ -80,18 +80,49 @@
 			<div class="col-md-12">
 				<div class="panel panel-primary">
 					<div class="panel-heading">
-						<h3 class="panel-title"><b id="num"></b></h3>
+						<h3 class="panel-title"><b id="num"></b><button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-success btn-xs pull-right" id="export">Export</button></h3>
 					</div>
 					<div class="panel-body">
 						<div class="alert alert-warning" role="alert">
 							<p>If you are in China, you can directly download them in 320Kbs. Otherwise, you need a Chinese proxy and only 128Kbs available</p>
 							<p>Or you can save them to your <b><a href="https://chrome.google.com/webstore/detail/pfkppcfegdgjijjijpinlmobpgliikkj" target="_blank">Baidu Yun Pan</a></b></p>
 						</div>
-						<div class="list-group" id="result">
-						</div>
+						<div class="list-group" id="result"></div>
 					</div>
 				</div>
 			</div>
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Export Download List</h4>
+                        </div>
+                        <div class="modal-body">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="export"><a href="#aria2c" aria-controls="aria2c" role="tab" data-toggle="tab">aria2c</a></li>
+                                <li role="export"><a href="#curl" aria-controls="curl" role="tab" data-toggle="tab">curl</a></li>
+                                <li role="export"><a href="#wget" aria-controls="wget" role="tab" data-toggle="tab">wget</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade active" id="aria2c">
+                                    <textarea name="aria2c" cols="30" rows="10" style="margin: 0px;height: 200px;max-width: 100%;min-width: 100%;"></textarea>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="curl">
+                                    <textarea name="curl" cols="30" rows="10" style="margin: 0px;height: 200px;max-width: 100%;min-width: 100%;"></textarea>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="wget">
+                                    <textarea name="wget" cols="30" rows="10" style="margin: 0px;height: 200px;max-width: 100%;min-width: 100%;"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</div>
 	</div>
 	<script src="./js/main.js"></script>
