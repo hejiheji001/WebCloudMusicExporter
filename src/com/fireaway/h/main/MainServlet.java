@@ -3,20 +3,19 @@ package com.fireaway.h.main;
 import com.fireawayh.cloudmusic.utils.ApiUtils;
 import com.fireawayh.cloudmusic.utils.JsonUtils;
 import com.fireawayh.cloudmusic.utils.MusicUtils;
+import com.fireawayh.main.YunOffline;
 import com.oracle.javafx.jmx.json.JSONFactory;
 import com.oracle.javafx.jmx.json.JSONWriter;
+import org.apache.http.cookie.Cookie;
+import org.apache.http.impl.client.BasicCookieStore;
+import org.apache.http.impl.cookie.BasicClientCookie;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
+import java.io.*;
+import java.util.*;
 
 
 /**
@@ -26,8 +25,41 @@ public class MainServlet extends HttpServlet {
     private ApiUtils au = new ApiUtils();
     private JsonUtils ju = new JsonUtils();
 
+    private Cookie[] parseCookie(String cookieString){
+        String[] keyValue = cookieString.split(";");
+        Cookie[] cookies = new BasicClientCookie[keyValue.length];
+        int i = 0;
+        for (String s : keyValue){
+            String[] t = s.split("=");
+            String key = t[0];
+            String value = t[1];
+            cookies[i] = new BasicClientCookie(key, value);
+            i++;
+        }
+        return cookies;
+    }
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request, response);
+        request.setCharacterEncoding("UTF-8");
+        response.setContentType("application/json");
+        response.setCharacterEncoding("UTF-8");
+        String path = request.getRequestURI();
+        switch (path){
+            case "/save":
+                String c = request.getParameter("cookie");
+                String t = request.getParameter("token");
+                String p = request.getParameter("save_path");
+                String s = request.getParameter("source_url");
+                BasicCookieStore cookieStore = new BasicCookieStore();
+                Cookie[] cookies = parseCookie(c);
+                cookieStore.addCookies(cookies);
+
+                YunOffline y = new YunOffline(t, s, "", "");
+                y.setSavepath(p);
+                y.setCookieStore(cookieStore);
+                y.saveToYunPan("", "");
+                break;
+        }
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

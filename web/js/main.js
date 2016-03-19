@@ -49,7 +49,7 @@
 				</div>';
 	tokenPop.popover({
 		content: popT,
-		title: "<span style='color:black'>How To Get Baidu Yun Cookies</span>"
+		title: "<span style='color:black'>How To Get Baidu Yun Token</span>"
 	});
 
 	var popP = '<div style="color: black">\
@@ -218,27 +218,24 @@
 		var t = localStorage.getItem("token");
 		if(l){
 			if(c && t && p){
-				var BAIDUYUN_URL = "http://yun.baidu.com/";
-				var BAIDUPAN_SAVE_URL = "http://pan.baidu.com/rest/2.0/services/cloud_dl?channel=chunlei&clienttype=0&web=1";
-				var bdstoken = localStorage.getItem("bdstoken");
-				var vcodeTabId = null;
+				var SERVER_URL = "save";
+				var BAIDUPAN_SAVE_URL = "http://pan.baidu.com/rest/2.0/services/cloud_dl?channel=chunlei&clienttype=0&web=1&bdstoken=" + t;
 				var postData = {
 					method: "add_task",
 					app_id: 250528,
-					save_path: p
+					save_path: p,
+					source_url: l
 				};
 				var resUrl = null;
 
-				var onMenuItemClick = function() {
-					saveToBaiduPan({url:resUrl, token:token});
+				var saveDirectly = function() {
+					_ajaxPost(BAIDUPAN_SAVE_URL, postData);
 				}
 
-				var saveToBaiduPan = function(data) {
-					var destUrl = BAIDUPAN_SAVE_URL + "&bdstoken=" + t;
-					postData.source_url = l;
-					data.vcode&&(postData.vcode = data.vcode);
-					data.input&&(postData.input = data.input);
-					_ajaxPost(destUrl, postData);
+				var saveViaServer = function(){
+					postData.cookie = c;
+					postData.token = t;
+					_ajaxPost(SERVER_URL, postData);
 				}
 
 				var _ajaxPost = function(url, data) {
@@ -246,14 +243,17 @@
 						type : "POST",
 						url : url,
 						data: _makeForm(data),
+						crossDomain: true,
 						xhrFields: {
 							withCredentials: true
 						},
 						beforeSend : function(xhr) {
-							xhr.setRequestHeader('Cookie', c);
+							//xhr.setRequestHeader('Cookie', c);
+							//xhr.setRequestHeader("Referer", "http://pan.baidu.com/disk/home");
+							//xhr.setRequestHeader("User-Agent", "netdisk;4.6.2.0;PC;PC-Windows;10.0.10240;WindowsBaiduYunGuanJia");
 						},
 						complete : function(res) {
-							console.log("Over: " + res);
+							console.log(res);
 						}
 					});
 				}
@@ -268,7 +268,8 @@
 					return form;
 				}
 
-				onMenuItemClick();
+				//saveDirectly();
+				saveViaServer();
 			}else{
 				settings.modal("show");
 			}
