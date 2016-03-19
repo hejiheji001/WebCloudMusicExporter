@@ -570,3 +570,56 @@ Caused by: java.net.BindException: Address already in use
 19-Mar-2016 02:13:53.086 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
 19-Mar-2016 02:13:53.087 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 19-Mar-2016 02:13:53.087 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2016 02:17:11.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M3
+19-Mar-2016 02:17:11.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 1 2016 20:52:49 UTC
+19-Mar-2016 02:17:11.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+19-Mar-2016 02:17:11.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Mar-2016 02:17:11.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.3
+19-Mar-2016 02:17:11.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Mar-2016 02:17:11.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+19-Mar-2016 02:17:11.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+19-Mar-2016 02:17:11.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2016 02:17:11.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat
+19-Mar-2016 02:17:11.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat
+19-Mar-2016 02:17:11.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/conf/logging.properties
+19-Mar-2016 02:17:11.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2016 02:17:11.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF8
+19-Mar-2016 02:17:11.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.jnu.encoding=UTF8
+19-Mar-2016 02:17:11.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/FireAwayH/Github/WebCloudMusicExporter/tomcat
+19-Mar-2016 02:17:11.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/FireAwayH/Github/WebCloudMusicExporter/tomcat
+19-Mar-2016 02:17:11.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/temp
+19-Mar-2016 02:17:11.320 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/FireAwayH/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+19-Mar-2016 02:17:11.519 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Mar-2016 02:17:11.550 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2016 02:17:11.554 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2016 02:17:11.556 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2016 02:17:11.556 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 900 ms
+19-Mar-2016 02:17:11.602 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+19-Mar-2016 02:17:11.602 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M3
+19-Mar-2016 02:17:11.641 WARNING [localhost-startStop-1] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+19-Mar-2016 02:17:11.643 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/webapps/cloudmusic.war
+19-Mar-2016 02:17:12.291 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2016 02:17:12.387 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/webapps/cloudmusic.war has finished in 743 ms
+19-Mar-2016 02:17:12.388 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/webapps/docs
+19-Mar-2016 02:17:12.420 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/webapps/docs has finished in 32 ms
+19-Mar-2016 02:17:12.421 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/webapps/examples
+19-Mar-2016 02:17:12.814 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/webapps/examples has finished in 394 ms
+19-Mar-2016 02:17:12.814 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/webapps/host-manager
+19-Mar-2016 02:17:12.844 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/webapps/host-manager has finished in 29 ms
+19-Mar-2016 02:17:12.844 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/webapps/manager
+19-Mar-2016 02:17:12.869 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/webapps/manager has finished in 24 ms
+19-Mar-2016 02:17:12.869 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/webapps/ROOT
+19-Mar-2016 02:17:12.870 WARNING [localhost-startStop-1] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+19-Mar-2016 02:17:12.932 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2016 02:17:12.936 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/FireAwayH/Github/WebCloudMusicExporter/tomcat/webapps/ROOT has finished in 67 ms
+19-Mar-2016 02:17:12.940 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+19-Mar-2016 02:17:12.947 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+19-Mar-2016 02:17:12.948 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1391 ms
+19-Mar-2016 02:17:13.994 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2016 02:17:13.995 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Mar-2016 02:17:14.049 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2016 02:17:14.100 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+19-Mar-2016 02:17:14.136 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Mar-2016 02:17:14.140 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2016 02:17:14.141 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Mar-2016 02:17:14.142 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

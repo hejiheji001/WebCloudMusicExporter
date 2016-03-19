@@ -270,7 +270,7 @@
 
 				onMenuItemClick();
 			}else{
-				alert("Please Click Menu - Settings to setup parameters");
+				settings.modal("show");
 			}
 		}
 	}
