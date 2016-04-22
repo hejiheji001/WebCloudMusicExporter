@@ -174,7 +174,7 @@
 						<a class="btn btn-default save" style="right: 15px;position: absolute;padding: 0px 12px;" data="${durl}" onclick="saveToPan(this)">Save To Pan</a>\
 					</div>';
 		var error = '<div class="alert alert-warning">\
-						<p>If you are using a <b>SONG</b> id, try again by add this song into a <b>PLAYLIST</b>.</p>\
+						<p>If you are using a <b>SONG</b> id, try again by add this song into a <b>PLAYLIST</b> or find a <b>PLAYLIST</b> contains this song.</p>\
 						<p>If still not working, try to connect this site with a Chinese proxy and try again.</p>\
 					</div>';
         $(".songItem").remove();
