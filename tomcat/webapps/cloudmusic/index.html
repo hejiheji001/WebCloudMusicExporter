@@ -21,7 +21,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="#">Cloud Music One Click V0.18.03</a>
+							<a class="navbar-brand" href="#">Cloud Music One Click V2016.04.22</a>
 						</div>
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
@@ -88,11 +88,24 @@
 						<h3 class="panel-title">Try A Music Id or Playlist ID</h3>
 					</div>
 					<div class="panel-body">
-						<div class="alert alert-warning" role="alert">
-							<p>Auto: http://music.163.com/song?id=29572501  =  Music ID: 29572501  HINT: Keyword is "song"</p>
-							<p>Auto: http://music.163.com/#/playlist?id=41370921  =  Playlist ID: 41370921  HINT: Keyword is "playlist"</p>
-                            <p>PS: Since the server is extremely short of memory, do not try a playlist with more than 20 songs</p>
-                            <p>PS: Songs' quality in playlist is better than not-in-playlist ones</p>
+						<p><a href="#" onclick="$('#intro').slideToggle()">Introduction</a></p>
+						<div class="alert alert-success" id="intro" style="display: none">
+							<p>This is a Netease Music analyser which is used to find out the true address of musics(320K preferred)</p>
+							<p>There are 3 working modes, default mode(simply press <b>Enter</b>) is "<b>Go Auto</b>" which detects your input and try to give correct result</p>
+							<p>If you know what your input type exactly, you can choose one of another 2 modes hidden in the triangle</p>
+						</div>
+						<p><a href="#" onclick="$('#usage').slideToggle()">Usage</a></p>
+						<div class="alert alert-warning" role="alert" id="usage" style="display: none">
+							<p>Links similar to "<a href="http://music.163.com/song?id=29572501" target="_blank">http://music.163.com/song?id=29572501</a>" refer to a <b>SONG</b> and its Music ID is <b>29572501</b>  HINT: Keyword is "song"</p>
+							<p>Links similar to "<a href="http://music.163.com/#/playlist?id=41370921" target="_blank">http://music.163.com/#/playlist?id=41370921</a>" refer to a <b>PLAYLIST</b> and its Playlist ID is <b>41370921</b>  HINT: Keyword is "playlist"</p>
+							<p>Links from desktop devices are recommended. The ones from mobile devices are OK but maybe the auto mode may be malfunction</p>
+						</div>
+						<p><a href="#" onclick="$('#notice').slideToggle()">Notice</a></p>
+						<div class="alert alert-warning" id="notice" style="display: none">
+							<p>Songs' quality in playlist is better than not-in-playlist ones. So it's wise to create a new playlist contains all your needed songs</p>
+							<p><b>Save to pan</b> button maybe useless and no notifications will given even it works well. So <b>PLEASE</b> check your Baidu Pan manually</p>
+							<p>If <b>Save to pan</b> doesn't work, you can try the Chrome extension <b><a href="https://chrome.google.com/webstore/detail/pfkppcfegdgjijjijpinlmobpgliikkj" target="_blank">Baidu Yun Pan</a></b> which provides a higher reliability</p>
+							<p>All your user data is stored locally which means the server can't know your account name or password. So don't be nerves</p>
 						</div>
 						<div class="list-group">
 							<div class="input-group">
@@ -122,10 +135,6 @@
 						<h3 class="panel-title"><b id="num"></b><button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-success btn-xs pull-right" id="export">Export</button></h3>
 					</div>
 					<div class="panel-body">
-						<div class="alert alert-warning" role="alert">
-							<p>If you are in China, you can directly download them in 320Kbs. Otherwise, you need a Chinese proxy and only 128Kbs available</p>
-							<p>Or you can save them to your <b><a href="https://chrome.google.com/webstore/detail/pfkppcfegdgjijjijpinlmobpgliikkj" target="_blank">Baidu Yun Pan</a></b></p>
-						</div>
 						<div class="list-group" id="result"></div>
 					</div>
 				</div>
