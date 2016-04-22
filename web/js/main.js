@@ -173,6 +173,10 @@
 						<a href="${durl}" download="${name}" target="_blank" class="songItem" style="font-size: 16px;font-weight: 500">${name}</a>\
 						<a class="btn btn-default save" style="right: 15px;position: absolute;padding: 0px 12px;" data="${durl}" onclick="saveToPan(this)">Save To Pan</a>\
 					</div>';
+		var error = '<div class="alert alert-warning">\
+						<p>If you are using a <b>SONG</b> id, try again by add this song into a <b>PLAYLIST</b>.</p>\
+						<p>If still not working, try to connect this site with a Chinese proxy and try again.</p>\
+					</div>';
         $(".songItem").remove();
 		$.ajax({
 			method: "GET",
@@ -192,7 +196,6 @@
 					}else{
 						hint = "WOW! We Got " + num + " Song!";
 					}
-					$("#num").html(hint);
 					for (var i = 0; i < num; i++) {
 						var s = songs[i];
 						var d = s["durl"];
@@ -201,8 +204,11 @@
 						tem = tem.replace(/\$\{name\}/g, n);
 						dom.push(tem);
 					}
+				}else{
+					hint = "Opps, nothing found :(";
+					dom.push(error);
 				}
-
+				$("#num").html(hint);
 				auto.removeClass("disabled");
                 auto.html("Go Auto");
 				toggle.removeClass("disabled");
