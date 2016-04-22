@@ -149,9 +149,6 @@ public class MainServlet extends HttpServlet {
         jw.endObject();
         jw.flush();
         jw.close();
-
-
-
     }
 
     private static String getDefaultCharSet() {
