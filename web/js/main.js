@@ -189,6 +189,7 @@
 				var list = data.listname;
 				var dom = [];
 				var hint = "";
+				result.html("");
 				songlist.slideDown();
 				if(res == "true"){
 					if(list){
