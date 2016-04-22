@@ -127,8 +127,8 @@
 			for (var i = 0; i < num; i++) {
 				var s = songs[i];
 				var d = s["durl"];
-				var n = s["name"];
-				aList.push("aria2c -c -s10 -k1M -x10 -o \"" + n + "\" --header \"Referer: http://music.163.com\" \"" + d + "\"");
+				var n = s["name"].replace(/\//g, "_");
+				aList.push("aria2c -c -k1M -x10 -o \"" + n + "\" --header \"Referer: http://music.163.com\" \"" + d + "\"");
 				wList.push("wget -o \"" + n + "\" --referer=http://music.163.com \"" + d + "\"");
 				cList.push("curl -o \"" + n + "\" -e http://music.163.com \"" + d + "\"");
 			}
