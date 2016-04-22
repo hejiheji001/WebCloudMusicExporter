@@ -192,9 +192,9 @@
 				songlist.slideDown();
 				if(res == "true"){
 					if(list){
-						hint = "WOW! In List: " + list + " We Got " + num + " Songs!";
+						hint = "😎 WOW! In List: " + list + " We Got " + num + " Songs!";
 					}else{
-						hint = "WOW! We Got " + num + " Song!";
+						hint = "😎 WOW! We Got " + num + " Song!";
 					}
 					for (var i = 0; i < num; i++) {
 						var s = songs[i];
@@ -205,7 +205,7 @@
 						dom.push(tem);
 					}
 				}else{
-					hint = "Opps, nothing found :(";
+					hint = "😷 Opps, nothing found :(";
 					dom.push(error);
 				}
 				$("#num").html(hint);
