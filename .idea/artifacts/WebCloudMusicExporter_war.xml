@@ -7,8 +7,6 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="catalina" />
           <element id="library" level="project" name="javax.servlet:javax.servlet-api:3.1.0" />
-          <element id="library" level="project" name="CloudMusic" />
-          <element id="library" level="project" name="YunOffline" />
         </element>
       </element>
     </root>

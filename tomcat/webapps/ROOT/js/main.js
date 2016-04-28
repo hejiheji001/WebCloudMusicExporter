@@ -3,15 +3,21 @@
 	var auto = $("#auto");
 	var music = $("#music");
 	var playlist = $("#playlist");
+	var album = $("#album");
 	var input = $("#input");
 	var songlist = $("#songlist");
 	var result = $("#result");
 	var exp = $("#export");
+	var locationPop = $("#locationPop");
 	var cookiePop = $("#cookiePop");
 	var tokenPop = $("#tokenPop");
 	var pathPop = $("#pathPop");
 	var save = $("#saveSetting");
 	var settings = $("#settings");
+	var notifier = $("#notifier");
+	window.place = localStorage.getItem("place");
+	var CN = $("#loc1");
+	var WW = $("#loc2");
 	var cookie = localStorage.getItem("cookie");
 	var token = localStorage.getItem("token");
 	var path = localStorage.getItem("path");
@@ -27,6 +33,15 @@
 	if(path){
 		$("#path").val(path);
 	}
+
+	var popL = '<div style="color: black">\
+					<p>1. I will guess your location automatically</p>\
+					<p>2. If you cannot download or preview you can change your location</p>\
+				</div>';
+	locationPop.popover({
+		content: popL,
+		title: "<span style='color:black'>Select Your Location</span>"
+	});
 
 	var popC = '<div style="color: black">\
 					<p>1. Login to your <a href="http://pan.baidu.com/disk/home" target="_blank">Baidu Pan</a></p>\
@@ -87,6 +102,12 @@
 		}
 	});
 
+	album.on({
+		click: function(e){
+			goMethod("album");
+		}
+	});
+
     input.on({
         keydown: function(e){
             if(e.keyCode == 13){
@@ -101,6 +122,23 @@
 		}
 	});
 
+	var getLocation = function(){
+		$.ajax({
+			method: "GET",
+			dataType: "json",
+			url: "http://ipinfo.io/json",
+			success : function (data) {
+				place = place || data.country;
+				if(place != "CN"){
+					notifier.show();
+					WW.toggleClass("active");
+				}else{
+					CN.toggleClass("active");
+				}
+			}
+		});
+	}
+
 	var saveSetting = function(){
 		var c = $("#cookies").val();
 		var t = $("#token").val();
@@ -110,6 +148,7 @@
 			localStorage.setItem("cookie", c);
 			localStorage.setItem("token", t);
 			localStorage.setItem("path", p);
+			localStorage.setItem("place", place);
 		}else{
 			alert("You must provide cookies, token and path");
 		}
@@ -126,7 +165,7 @@
 			var num = songs.length;
 			for (var i = 0; i < num; i++) {
 				var s = songs[i];
-				var d = s["durl"];
+				var d = place == "CN" ? s["durl"] : s["durl"].replace("http://m","http://p");
 				var n = s["name"].replace(/\//g, "_");
 				aList.push("aria2c -c -k1M -x10 -o \"" + n + "\" --header \"Referer: http://music.163.com\" \"" + d + "\"");
 				wList.push("wget -o \"" + n + "\" --referer=http://music.163.com \"" + d + "\"");
@@ -153,6 +192,8 @@
 					method = "id";
 				}else if(val.indexOf("playlist") > -1){
 					method = "playlistExtra";
+				}else if(val.indexOf("album") > -1){
+					method = "album";
 				}else{
 					alert("Auto detect failed, maybe specific it.");
 					auto.removeClass("disabled");
@@ -169,12 +210,13 @@
 	};
 
 	var getInfo = function(u){
-		var str =  '<div class="list-group-item list-group-item-info text-center list-inline">\
+		var str =  '<li class="list-group-item list-group-item-info text-center" style="display: list-item;margin-left: 15px;">\
 						<a href="${durl}" download="${name}" target="_blank" class="songItem" style="font-size: 16px;font-weight: 500">${name}</a>\
+						<a class="btn btn-default preview" style="right: 130px;position: absolute;padding: 0px 12px;" data="${durl}" onclick="preview(this)">Preview</a>\
 						<a class="btn btn-default save" style="right: 15px;position: absolute;padding: 0px 12px;" data="${durl}" onclick="saveToPan(this)">Save To Pan</a>\
-					</div>';
+					</li>';
 		var error = '<div class="alert alert-warning">\
-						<p>If you are using a <b>SONG</b> id, try again by add this song into a <b>PLAYLIST</b> or find a <b>PLAYLIST</b> contains this song.</p>\
+						<p>If you are using a <b>SONG</b> id, try again by add this song into a <b>PLAYLIST</b> or find a <b>PLAYLIST</b> or <b>ALBUM</b> contains this song.</p>\
 						<p>If still not working, try to connect this site with a Chinese proxy and try again.</p>\
 					</div>';
         $(".songItem").remove();
@@ -186,20 +228,21 @@
 				var num = data.songs.length;
 				window.songs = data.songs;
 				var res = data.result;
-				var list = data.listname;
+				var title = data.listname;
 				var dom = [];
 				var hint = "";
 				result.html("");
 				songlist.slideDown();
+				localStorage.setItem("place", place);
 				if(res == "true"){
-					if(list){
-						hint = "😎 WOW! In List: " + list + " We Got " + num + " Songs!";
+					if(title){
+						hint = "😎 WOW! In List: " + title + " We Got " + num + " Songs!";
 					}else{
 						hint = "😎 WOW! We Got " + num + " Song!";
 					}
 					for (var i = 0; i < num; i++) {
 						var s = songs[i];
-						var d = s["durl"];
+						var d = place == "CN" ? s["durl"] : s["durl"].replace("http://m","http://p");
 						var n = s["name"];
 						tem = str.replace(/\$\{durl\}/g, d);
 						tem = tem.replace(/\$\{name\}/g, n);
@@ -211,7 +254,7 @@
 				}
 				$("#num").html(hint);
 				auto.removeClass("disabled");
-                auto.html("Go Auto");
+				auto.html("Go Auto");
 				toggle.removeClass("disabled");
 				result.append(dom.join(""));
 			}
@@ -282,5 +325,16 @@
 			}
 		}
 	}
+
+	window.preview = function(o){
+		var s = $(o).attr("data");
+		var p = $("#preview");
+		p.attr("src", s);
+		if(p.is(':hidden')){
+			p.fadeIn();
+		}
+	}
+
+	getLocation();
 })();
 

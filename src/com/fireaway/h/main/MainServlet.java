@@ -17,7 +17,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.util.*;
 
-
 /**
  * By FireAwayH on 14/03/2016.
  */
@@ -109,9 +108,9 @@ public class MainServlet extends HttpServlet {
                         break;
                     case "playlistExtra":
                         List<Map<String, Object>> playListJson = ju.getPlayListBestMusic(val);
-                        int JsonLen = playListJson.size();
-                        listname = playListJson.get(JsonLen - 1).get("listname").toString();
-                        playListJson.remove(JsonLen - 1);
+                        int playlistLen = playListJson.size();
+                        listname = playListJson.get(playlistLen - 1).get("listname").toString();
+                        playListJson.remove(playlistLen - 1);
                         for (Map<String, Object> j : playListJson){
                             String s = j.get("id").toString();
                             String n = j.get("name").toString();
@@ -124,7 +123,30 @@ public class MainServlet extends HttpServlet {
                                 jw.writeObject(songObj);
                             }catch (Exception eee){
                                 eee.printStackTrace();
-                                songObj.put("name", "Song ID: " + s + " Failed");
+                                songObj.put("name", "Playlist ID: " + s + " Failed");
+                                songObj.put("durl", "#");
+                                jw.writeObject(songObj);
+                            }
+                        }
+                        break;
+                    case "album":
+                        List<Map<String, Object>> albumJson = ju.getAlbumBestMusic(val);
+                        int albumLen = albumJson.size();
+                        listname = albumJson.get(albumLen - 1).get("listname").toString();
+                        albumJson.remove(albumLen - 1);
+                        for (Map<String, Object> j : albumJson){
+                            String s = j.get("id").toString();
+                            String n = j.get("name").toString();
+                            String e = j.get("extension").toString();
+                            String b = j.get("dfsId").toString();
+                            String d = au.getDownloadUrl(b, e);
+                            try{
+                                songObj.put("name", n + "." + e);
+                                songObj.put("durl", d);
+                                jw.writeObject(songObj);
+                            }catch (Exception eee){
+                                eee.printStackTrace();
+                                songObj.put("name", "Album ID: " + s + " Failed");
                                 songObj.put("durl", "#");
                                 jw.writeObject(songObj);
                             }

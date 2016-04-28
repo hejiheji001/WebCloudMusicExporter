@@ -3,6 +3,7 @@
 	var auto = $("#auto");
 	var music = $("#music");
 	var playlist = $("#playlist");
+	var album = $("#album");
 	var input = $("#input");
 	var songlist = $("#songlist");
 	var result = $("#result");
@@ -101,6 +102,12 @@
 		}
 	});
 
+	album.on({
+		click: function(e){
+			goMethod("album");
+		}
+	});
+
     input.on({
         keydown: function(e){
             if(e.keyCode == 13){
@@ -185,6 +192,8 @@
 					method = "id";
 				}else if(val.indexOf("playlist") > -1){
 					method = "playlistExtra";
+				}else if(val.indexOf("album") > -1){
+					method = "album";
 				}else{
 					alert("Auto detect failed, maybe specific it.");
 					auto.removeClass("disabled");
@@ -207,7 +216,7 @@
 						<a class="btn btn-default save" style="right: 15px;position: absolute;padding: 0px 12px;" data="${durl}" onclick="saveToPan(this)">Save To Pan</a>\
 					</li>';
 		var error = '<div class="alert alert-warning">\
-						<p>If you are using a <b>SONG</b> id, try again by add this song into a <b>PLAYLIST</b> or find a <b>PLAYLIST</b> contains this song.</p>\
+						<p>If you are using a <b>SONG</b> id, try again by add this song into a <b>PLAYLIST</b> or find a <b>PLAYLIST</b> or <b>ALBUM</b> contains this song.</p>\
 						<p>If still not working, try to connect this site with a Chinese proxy and try again.</p>\
 					</div>';
         $(".songItem").remove();
@@ -219,15 +228,15 @@
 				var num = data.songs.length;
 				window.songs = data.songs;
 				var res = data.result;
-				var list = data.listname;
+				var title = data.listname;
 				var dom = [];
 				var hint = "";
 				result.html("");
 				songlist.slideDown();
 				localStorage.setItem("place", place);
 				if(res == "true"){
-					if(list){
-						hint = "😎 WOW! In List: " + list + " We Got " + num + " Songs!";
+					if(title){
+						hint = "😎 WOW! In List: " + title + " We Got " + num + " Songs!";
 					}else{
 						hint = "😎 WOW! We Got " + num + " Song!";
 					}
