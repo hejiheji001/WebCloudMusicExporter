@@ -216,7 +216,7 @@
 					}
 					for (var i = 0; i < num; i++) {
 						var s = songs[i];
-						var d = s["durl"];
+						var d = place == "CN" ? s["durl"] : s["durl"].replace("http://m","http://p");
 						var n = s["name"];
 						tem = str.replace(/\$\{durl\}/g, d);
 						tem = tem.replace(/\$\{name\}/g, n);
