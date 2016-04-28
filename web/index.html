@@ -45,6 +45,21 @@
                                     </div>
                                     <div class="modal-body">
                                         <form>
+                                        	<div class="form-group">
+                                        	    <label for="cookies">Location Toggler
+                                        	        <span class="badge">
+                                        	            <a href="#" id="locationPop" data-toggle="popover"  data-html="true" style="color: white;">?</a>
+                                        	        </span>
+                                        	    </label>
+                                        	    <div class="btn-group pull-right" data-toggle="buttons">
+                                        	    	<label class="btn btn-primary" id="loc1" onclick="window.place='CN';loc.style.display='none';notifier.style.display='block';">
+                                        	        	<input type="radio" name="options"autocomplete="off"> China
+                                        	    	</label>
+                                        	    	<label class="btn btn-primary" id="loc2" onclick="window.place='WW';loc.style.display='';notifier.style.display='block';">
+                                        	        	<input type="radio" name="options" autocomplete="off">Worldwide
+                                        	    	</label>
+                                        	    </div>
+                                        	</div>
                                             <div class="form-group">
                                                 <label for="cookies">Baidu Yun Cookies
                                                     <span class="badge">
@@ -80,8 +95,8 @@
                         </div>
 					</div>
 				</nav>
-				<div class="text-center alert alert-success alert-dismissible fade in __web-inspector-hide-shortcut__" role="alert" style="position: absolute; top: 0px; left: calc(50% - 220px); width: 440px; display:none" id="notifier">
-				    Switched To Not-In-China Mode!
+				<div class="text-center alert alert-success alert-dismissible fade in __web-inspector-hide-shortcut__" role="alert" style="position: absolute; top: 0px; left: calc(50% - 150px); width: 300px; display:none" id="notifier">
+				    Now In <span id="loc">Not-</span>In-China Mode!
 				</div>
 			</div>
 		</div>

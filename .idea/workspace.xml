@@ -8,11 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f93e8801-9926-46b4-b038-eff18d813c3d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/cloudmusic.war" afterPath="$PROJECT_DIR$/out/cloudmusic.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/index.html" afterPath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/js/main.js" afterPath="$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/main.js" afterPath="$PROJECT_DIR$/web/js/main.js" />
     </list>
     <ignored path="WebCloudMusicExporter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,7 +48,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.083333">
+            <state vertical-scroll-proportion="0.0">
               <caret line="129" column="33" selection-start-line="129" selection-start-column="33" selection-end-line="129" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#span#0;n#label#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
@@ -64,8 +62,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6288819">
-              <caret line="187" column="38" selection-start-line="187" selection-start-column="38" selection-end-line="187" selection-end-column="38" />
+            <state vertical-scroll-proportion="-0.49068323">
+              <caret line="145" column="23" selection-start-line="145" selection-start-column="23" selection-end-line="145" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -196,9 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -497,6 +492,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1072,7 +1070,8 @@
       <workItem from="1461362564172" duration="4253000" />
       <workItem from="1461405168468" duration="227000" />
       <workItem from="1461799301789" duration="745000" />
-      <workItem from="1461803882219" duration="437000" />
+      <workItem from="1461803882219" duration="644000" />
+      <workItem from="1461843488826" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1458006172328</created>
@@ -1138,7 +1137,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62261000" />
+    <option name="totallyTimeSpent" value="62525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -1584,13 +1583,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.083333">
+        <state vertical-scroll-proportion="0.0">
           <caret line="129" column="33" selection-start-line="129" selection-start-column="33" selection-end-line="129" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#a#0;n#span#0;n#label#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#span#0;n#label#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#span#0;n#label#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.49068323">
+          <caret line="145" column="23" selection-start-line="145" selection-start-column="23" selection-end-line="145" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1601,14 +1608,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6288819">
-          <caret line="187" column="38" selection-start-line="187" selection-start-column="38" selection-end-line="187" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>

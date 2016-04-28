@@ -13,7 +13,9 @@
 	var save = $("#saveSetting");
 	var settings = $("#settings");
 	var notifier = $("#notifier");
-	var place = "";
+	window.place = localStorage.getItem("place");
+	var CN = $("#loc1");
+	var WW = $("#loc2");
 	var cookie = localStorage.getItem("cookie");
 	var token = localStorage.getItem("token");
 	var path = localStorage.getItem("path");
@@ -109,9 +111,12 @@
 			dataType: "json",
 			url: "http://ipinfo.io/json",
 			success : function (data) {
-				place = data.country;
+				place = place || data.country;
 				if(place != "CN"){
 					notifier.show();
+					WW.toggleClass("active");
+				}else{
+					CN.toggleClass("active");
 				}
 			}
 		});
@@ -126,6 +131,7 @@
 			localStorage.setItem("cookie", c);
 			localStorage.setItem("token", t);
 			localStorage.setItem("path", p);
+			localStorage.setItem("place", place);
 		}else{
 			alert("You must provide cookies, token and path");
 		}
@@ -185,7 +191,7 @@
 	};
 
 	var getInfo = function(u){
-		var str =  '<li class="list-group-item list-group-item-info text-center" style="display: list-item;margin-left: 5px;">\
+		var str =  '<li class="list-group-item list-group-item-info text-center" style="display: list-item;margin-left: 15px;">\
 						<a href="${durl}" download="${name}" target="_blank" class="songItem" style="font-size: 16px;font-weight: 500">${name}</a>\
 						<a class="btn btn-default preview" style="right: 130px;position: absolute;padding: 0px 12px;" data="${durl}" onclick="preview(this)">Preview</a>\
 						<a class="btn btn-default save" style="right: 15px;position: absolute;padding: 0px 12px;" data="${durl}" onclick="saveToPan(this)">Save To Pan</a>\
@@ -208,6 +214,7 @@
 				var hint = "";
 				result.html("");
 				songlist.slideDown();
+				localStorage.setItem("place", place);
 				if(res == "true"){
 					if(list){
 						hint = "😎 WOW! In List: " + list + " We Got " + num + " Songs!";
