@@ -22,7 +22,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="#">Cloud Music One Click V2016.04.22 😍</a>
+							<a class="navbar-brand" href="#">Cloud Music One Click V2016.04.28 😍</a>
 						</div>
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
@@ -80,6 +80,9 @@
                         </div>
 					</div>
 				</nav>
+				<div class="text-center alert alert-success alert-dismissible fade in __web-inspector-hide-shortcut__" role="alert" style="position: absolute; top: 0px; left: calc(50% - 220px); width: 440px; display:none" id="notifier">
+				    Switched To Not-In-China Mode!
+				</div>
 			</div>
 		</div>
 		<div class="row">
@@ -157,7 +160,7 @@
 						<h3 class="panel-title"><b id="num"></b><button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-success btn-xs pull-right" id="export">Export</button></h3>
 					</div>
 					<div class="panel-body">
-						<div class="list-group" id="result"></div>
+						<ol class="list-group" id="result"></ol>
 					</div>
 				</div>
 			</div>
@@ -193,6 +196,9 @@
                 </div>
             </div>
 		</div>
+		<audio src="" style="display: none; position: fixed; bottom: 20px; left: 15px;" id="preview" controls autoplay>
+			Your Browser Does Not Support HTML5 Audio
+		</audio>
 	</div>
 	<script src="./js/main.js"></script>
 </div>
