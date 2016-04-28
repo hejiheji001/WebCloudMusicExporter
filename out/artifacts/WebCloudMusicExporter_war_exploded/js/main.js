@@ -7,6 +7,7 @@
 	var songlist = $("#songlist");
 	var result = $("#result");
 	var exp = $("#export");
+	var locationPop = $("#locationPop");
 	var cookiePop = $("#cookiePop");
 	var tokenPop = $("#tokenPop");
 	var pathPop = $("#pathPop");
@@ -31,6 +32,15 @@
 	if(path){
 		$("#path").val(path);
 	}
+
+	var popL = '<div style="color: black">\
+					<p>1. I will guess your location automatically</p>\
+					<p>2. If you cannot download or preview you can change your location</p>\
+				</div>';
+	locationPop.popover({
+		content: popL,
+		title: "<span style='color:black'>Select Your Location</span>"
+	});
 
 	var popC = '<div style="color: black">\
 					<p>1. Login to your <a href="http://pan.baidu.com/disk/home" target="_blank">Baidu Pan</a></p>\
