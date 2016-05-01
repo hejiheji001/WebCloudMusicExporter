@@ -126,9 +126,9 @@
 		$.ajax({
 			method: "GET",
 			dataType: "json",
-			url: "http://ipinfo.io/json",
+			url: "https://freegeoip.net/json/",
 			success : function (data) {
-				place = place || data.country;
+				place = place || data.country_code;
 				if(place != "CN"){
 					notifier.show();
 					WW.toggleClass("active");
