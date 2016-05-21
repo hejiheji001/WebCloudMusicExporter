@@ -166,18 +166,18 @@
 			for (var i = 0; i < num; i++) {
 				var s = songs[i];
 				var d = place == "CN" ? s["durl"] : s["durl"].replace("http://m","http://p");
-				var n = s["name"].replace(/\//g, "_");
+				var n = s["name"].replace(/\//g, "\\/").replace(/\"/g, '\\"').replace(/\'/g, "\\'");
 				aList.push("aria2c -c -k1M -x10 -o \"" + n + "\" --header \"Referer: http://music.163.com\" \"" + d + "\"");
 				wList.push("wget -o \"" + n + "\" --referer=http://music.163.com \"" + d + "\"");
 				cList.push("curl -o \"" + n + "\" -e http://music.163.com \"" + d + "\"");
 			}
-			aList.push("\r\n");
-			wList.push("\r\n");
-			cList.push("\r\n");
+			aList.push("\r\n\r\n");
+			wList.push("\r\n\r\n");
+			cList.push("\r\n\r\n");
 		}
-		a.text(aList.join("\r\n"));
-		w.text(wList.join("\r\n"));
-		c.text(cList.join("\r\n"));
+		a.text(aList.join("\r\n\r\n"));
+		w.text(wList.join("\r\n\r\n"));
+		c.text(cList.join("\r\n\r\n"));
 	}
 
 	var goMethod = function(method){
@@ -191,7 +191,7 @@
 				if(val.indexOf("song") > -1){
 					method = "id";
 				}else if(val.indexOf("playlist") > -1){
-					method = "playlistExtra";
+					method = "playlist";
 				}else if(val.indexOf("album") > -1){
 					method = "album";
 				}else{
@@ -201,7 +201,18 @@
 					toggle.removeClass("disabled");
 					return;
 				}
-				val = /=(\d+)?/.exec(val)[1];
+
+				var r = new RegExp("=(\\d+)?");
+
+				//if(val.indexOf("userid") > -1){
+				//	r = new RegExp(method + "\/(\\d+)?\/");
+				//}
+				
+				if(val.indexOf(method + "/") > -1){
+					r = new RegExp(method + "\/(\\d+)\/?");
+				}
+
+				val = r.exec(val)[1];
 			}
 			getInfo("get?" + method + "=" + val);
 		}else{
@@ -211,7 +222,7 @@
 
 	var getInfo = function(u){
 		var str =  '<li class="list-group-item list-group-item-info text-center" style="display: list-item;margin-left: 15px;">\
-						<a href="${durl}" download="${name}" target="_blank" class="songItem" style="font-size: 16px;font-weight: 500">${name}</a>\
+						<a href="${durl}" download="${artist} - ${name}" target="_blank" class="songItem" style="font-size: 16px;font-weight: 500">${artist} - ${name}</a>\
 						<a class="btn btn-default preview" style="right: 130px;position: absolute;padding: 0px 12px;" data="${durl}" onclick="preview(this)">Preview</a>\
 						<a class="btn btn-default save" style="right: 15px;position: absolute;padding: 0px 12px;" data="${durl}" onclick="saveToPan(this)">Save To Pan</a>\
 					</li>';
@@ -244,7 +255,9 @@
 						var s = songs[i];
 						var d = place == "CN" ? s["durl"] : s["durl"].replace("http://m","http://p");
 						var n = s["name"];
+						var a = s["artist"];
 						tem = str.replace(/\$\{durl\}/g, d);
+						tem = tem.replace(/\$\{artist\}/g, a);
 						tem = tem.replace(/\$\{name\}/g, n);
 						dom.push(tem);
 					}
