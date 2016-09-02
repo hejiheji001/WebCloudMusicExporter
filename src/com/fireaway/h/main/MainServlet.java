@@ -81,7 +81,7 @@ public class MainServlet extends HttpServlet {
                 String val = q[1];
                 res = "true";
                 switch (type){
-                    case "id":
+                    case "song":
                         String[] info = getSongInfo(val);
                         songObj.put("artist",info[2]);
                         songObj.put("name", info[0]);
@@ -156,6 +156,31 @@ public class MainServlet extends HttpServlet {
                                 jw.writeObject(songObj);
                             }
                         }
+                        break;
+                    case "artist":
+//                        List<Map<String, Object>> artistJson = ju.getArtistBestMusic(val);
+//                        int artistLen = artistJson.size();
+//                        listname = artistJson.get(artistLen - 1).get("listname").toString();
+//                        artistJson.remove(artistLen - 1);
+//                        for (Map<String, Object> j : artistJson){
+//                            String s = j.get("id").toString();
+//                            String a = j.get("artist").toString();
+//                            String n = j.get("name").toString();
+//                            String e = j.get("extension").toString();
+//                            String b = j.get("dfsId").toString();
+//                            String d = au.getDownloadUrl(b, e);
+//                            try{
+//                                songObj.put("artist", a);
+//                                songObj.put("name", n + "." + e);
+//                                songObj.put("durl", d);
+//                                jw.writeObject(songObj);
+//                            }catch (Exception eee){
+//                                eee.printStackTrace();
+//                                songObj.put("name", "Album ID: " + s + " Failed");
+//                                songObj.put("durl", "#");
+//                                jw.writeObject(songObj);
+//                            }
+//                        }
                         break;
                 }
             }catch (Exception e){
