@@ -361,5 +361,14 @@
 	}
 
 	getLocation();
+
+	if(location.hash){
+		var param = location.hash.substring(2).split("?");
+		var method = param[0];
+		var val = param[1].substring(3);
+		auto.addClass("disabled");
+		getInfo("get?" + method + "=" + val);
+		return;
+	}
 })();
 
