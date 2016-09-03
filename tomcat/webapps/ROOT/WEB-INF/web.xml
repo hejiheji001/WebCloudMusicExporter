@@ -23,7 +23,7 @@
 		<servlet-name>MusicServlet</servlet-name>
 		<url-pattern>/song/*</url-pattern>
 		<url-pattern>/artist/*</url-pattern>
-		<url-pattern>/albumn/*</url-pattern>
+		<url-pattern>/album/*</url-pattern>
 		<url-pattern>/playlist/*</url-pattern>
 	</servlet-mapping>
 	<filter>
