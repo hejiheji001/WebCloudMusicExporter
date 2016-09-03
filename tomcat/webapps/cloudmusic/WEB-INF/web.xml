@@ -10,10 +10,21 @@
 		<servlet-name>MainServlet</servlet-name>
 		<servlet-class>com.fireaway.h.main.MainServlet</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>MusicServlet</servlet-name>
+		<servlet-class>com.fireaway.h.main.MusicServlet</servlet-class>
+	</servlet>
 	<servlet-mapping>
 		<servlet-name>MainServlet</servlet-name>
 		<url-pattern>/get/*</url-pattern>
 		<url-pattern>/save/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MusicServlet</servlet-name>
+		<url-pattern>/song/*</url-pattern>
+		<url-pattern>/artist/*</url-pattern>
+		<url-pattern>/albumn/*</url-pattern>
+		<url-pattern>/playlist/*</url-pattern>
 	</servlet-mapping>
 	<filter>
 		<filter-name>Set Character Encoding</filter-name>

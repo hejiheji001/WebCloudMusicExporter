@@ -158,6 +158,11 @@
 		var a = $("[name='aria2c']");
 		var w = $("[name='wget']");
 		var c = $("[name='curl']");
+
+		a.text("");
+		w.text("");
+		c.text("");
+
 		var aList = [];
 		var wList = [];
 		var cList = [];
@@ -166,8 +171,9 @@
 			for (var i = 0; i < num; i++) {
 				var s = songs[i];
 				var d = place == "CN" ? s["durl"] : s["durl"].replace("http://m","http://p");
+				var a = s["artist"] + " - ";
 				var n = s["name"].replace(/\//g, "\\/").replace(/\"/g, '\\"').replace(/\'/g, "\\'");
-				aList.push("aria2c -c -k1M -x10 -o \"" + n + "\" --header \"Referer: http://music.163.com\" \"" + d + "\"");
+				aList.push("aria2c -c -k1M -x10 -o \"" + a + n + "\" --header \"Referer: http://music.163.com\" \"" + d + "\"");
 				wList.push("wget -o \"" + n + "\" --referer=http://music.163.com \"" + d + "\"");
 				cList.push("curl -o \"" + n + "\" -e http://music.163.com \"" + d + "\"");
 			}
@@ -189,11 +195,13 @@
 			toggle.addClass("disabled");
 			if(method == "auto"){
 				if(val.indexOf("song") > -1){
-					method = "id";
+					method = "song";
 				}else if(val.indexOf("playlist") > -1){
 					method = "playlist";
 				}else if(val.indexOf("album") > -1){
 					method = "album";
+				}else if(val.indexOf("album") > -1){
+					method = "artist";
 				}else{
 					alert("Auto detect failed, maybe specific it.");
 					auto.removeClass("disabled");
@@ -207,7 +215,7 @@
 				//if(val.indexOf("userid") > -1){
 				//	r = new RegExp(method + "\/(\\d+)?\/");
 				//}
-				
+
 				if(val.indexOf(method + "/") > -1){
 					r = new RegExp(method + "\/(\\d+)\/?");
 				}
@@ -222,7 +230,7 @@
 
 	var getInfo = function(u){
 		var str =  '<li class="list-group-item list-group-item-info text-center" style="display: list-item;margin-left: 15px;">\
-						<a href="${durl}" download="${artist} - ${name}" target="_blank" class="songItem" style="font-size: 16px;font-weight: 500">${artist} - ${name}</a>\
+						<a href="${durl}" download="${artist}${name}" target="_blank" class="songItem" style="font-size: 16px;font-weight: 500">${artist} - ${name}</a>\
 						<a class="btn btn-default preview" style="right: 130px;position: absolute;padding: 0px 12px;" data="${durl}" onclick="preview(this)">Preview</a>\
 						<a class="btn btn-default save" style="right: 15px;position: absolute;padding: 0px 12px;" data="${durl}" onclick="saveToPan(this)">Save To Pan</a>\
 					</li>';
@@ -257,8 +265,12 @@
 						var n = s["name"];
 						var a = s["artist"];
 						tem = str.replace(/\$\{durl\}/g, d);
-						tem = tem.replace(/\$\{artist\}/g, a);
 						tem = tem.replace(/\$\{name\}/g, n);
+						if(tem.indexOf(a) == -1){
+							tem = tem.replace(/\$\{artist\}/g, a + " - ");
+						}else{
+							tem = tem.replace(/\$\{artist\}/g, "");
+						}
 						dom.push(tem);
 					}
 				}else{
