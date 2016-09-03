@@ -22,6 +22,7 @@ public class MusicServlet extends HttpServlet {
         }else if(request.getQueryString() != null){
             value = request.getQueryString().split("=")[1];
         }
-        request.getRequestDispatcher("/get?" + method + "=" + value).forward(request, response);
+//        request.getRequestDispatcher("/get?" + method + "=" + value).forward(request, response);
+        response.sendRedirect("/#/" + method + "?id=" + value);
     }
 }
