@@ -164,6 +164,9 @@
 	}
 
 	var exportList = function(){
+		if(!aria2c){
+			aria2c = $("[name='aria2c']");
+		}
 		aria2c.text("");
 		wget.text("");
 		curl.text("");
@@ -173,7 +176,7 @@
 			for (var i = 0; i < num; i++) {
 				var s = songs[i];
 				var d = place == "CN" ? s["durl"] : s["durl"].replace("http://m","http://p");
-				var aria2c = s["artist"] + " - ";
+				var a = s["artist"] + " - ";
 				var n = s["name"].replace(/\//g, "\\/").replace(/\"/g, '\\"').replace(/\'/g, "\\'");
 				aList.push("aria2c -c -k1M -x10 -o \"" + a + n + "\" --header \"Referer: http://music.163.com\" \"" + d + "\"");
 				wList.push("wget -o \"" + n + "\" --referer=http://music.163.com \"" + d + "\"");

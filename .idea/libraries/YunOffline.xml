@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="YunOffline">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../YunOffline/YunOffline.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

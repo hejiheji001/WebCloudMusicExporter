@@ -8,12 +8,17 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="catalina" />
-          <element id="library" level="project" name="CloudMusic" />
           <element id="library" level="project" name="javax.servlet:javax.servlet-api:3.1.0" />
-          <element id="library" level="project" name="YunOffline" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/CloudMusic.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/YunOffline.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.servlet-api-3.1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jboss-servlet-api_3.0_spec-1.0.1.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jboss-servlet-api_3.0_spec-1.0.1.Final-javadoc.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jboss-servlet-api_3.0_spec-1.0.1.Final-sources.jar" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="WebCloudMusicExporter/web/Web" />
+      <element id="javaee-facet-resources" facet="WebCloudMusicExporter/web/Web5" />
     </root>
   </artifact>
 </component>
