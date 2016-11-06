@@ -22,6 +22,14 @@
 	var token = localStorage.getItem("token");
 	var path = localStorage.getItem("path");
 
+	var aria2c = $("[name='aria2c']");
+	var wget = $("[name='wget']");
+	var curl = $("[name='curl']");
+
+	var aList = [];
+	var wList = [];
+	var cList = [];
+
 	if(cookie){
 		$("#cookies").val(cookie);
 	}
@@ -150,22 +158,19 @@
 			localStorage.setItem("path", p);
 			localStorage.setItem("place", place);
 		}else{
-			alert("You must provide cookies, token and path");
+			settings.modal("hide");
+			// alert("You must provide cookies, token and path");
 		}
 	}
 
 	var exportList = function(){
-		var a = $("[name='aria2c']");
-		var w = $("[name='wget']");
-		var c = $("[name='curl']");
+		if(!aria2c){
+			aria2c = $("[name='aria2c']");
+		}
+		aria2c.text("");
+		wget.text("");
+		curl.text("");
 
-		a.text("");
-		w.text("");
-		c.text("");
-
-		var aList = [];
-		var wList = [];
-		var cList = [];
 		if(songs){
 			var num = songs.length;
 			for (var i = 0; i < num; i++) {
@@ -181,9 +186,9 @@
 			wList.push("\r\n\r\n");
 			cList.push("\r\n\r\n");
 		}
-		a.text(aList.join("\r\n\r\n"));
-		w.text(wList.join("\r\n\r\n"));
-		c.text(cList.join("\r\n\r\n"));
+		aria2c.text(aList.join("\r\n\r\n"));
+		wget.text(wList.join("\r\n\r\n"));
+		curl.text(cList.join("\r\n\r\n"));
 	}
 
 	var goMethod = function(method){
