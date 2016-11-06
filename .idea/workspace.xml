@@ -7,8 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f93e8801-9926-46b4-b038-eff18d813c3d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/cloudmusic.war" afterPath="$PROJECT_DIR$/out/cloudmusic.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/music.ico" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/music.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/music.ico" afterPath="$PROJECT_DIR$/web/music.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/index.html" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/index.html" />
     </list>
     <ignored path="WebCloudMusicExporter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -934,7 +935,7 @@
       <workItem from="1463837263329" duration="1592000" />
       <workItem from="1463839282564" duration="2233000" />
       <workItem from="1472855494104" duration="6484000" />
-      <workItem from="1478449659957" duration="1969000" />
+      <workItem from="1478449659957" duration="2115000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1458006172328</created>
@@ -1072,7 +1073,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81392000" />
+    <option name="totallyTimeSpent" value="81538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
