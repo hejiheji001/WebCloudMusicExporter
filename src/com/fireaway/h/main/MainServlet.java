@@ -80,108 +80,48 @@ public class MainServlet extends HttpServlet {
                 String type = q[0];
                 String val = q[1];
                 res = "true";
-                switch (type){
-                    case "song":
-                        String[] info = getSongInfo(val);
-                        songObj.put("artist",info[2]);
-                        songObj.put("name", info[0]);
-                        songObj.put("durl",info[1]);
-                        jw.writeObject(songObj);
-                        break;
-//                    case "playlist":
-//                        ArrayList<String> playList = ju.getPlayListSongs(val);
-//                        int len = playList.size();
-//                        listname = playList.get(len - 1);
-//                        playList.remove(len - 1);
-//                        for (String s : playList){
-//                            try {
-//                                String[] t = getSongInfo(s);
-//                                songObj.put("name", t[0]);
-//                                songObj.put("durl", t[1]);
-//                                jw.writeObject(songObj);
-//                            }catch (NullPointerException ee){
-//                                ee.printStackTrace();
-//                                songObj.put("name", "Song ID: " + s + " Failed");
-//                                songObj.put("durl", "#");
-//                                jw.writeObject(songObj);
-//                            }
-//                        }
-//                        break;
-                    case "playlist":
-                        List<Map<String, Object>> playListJson = ju.getPlayListBestMusic(val);
-                        int playlistLen = playListJson.size();
-                        listname = playListJson.get(playlistLen - 1).get("listname").toString();
-                        playListJson.remove(playlistLen - 1);
-                        for (Map<String, Object> j : playListJson){
-                            String s = j.get("id").toString();
-                            String a = j.get("artist").toString();
-                            String n = j.get("name").toString();
-                            String e = j.get("extension").toString();
-                            String b = j.get("dfsId").toString();
-                            String d = au.getDownloadUrl(b, e);
-                            try{
-                                songObj.put("artist", a);
-                                songObj.put("name", n + "." + e);
-                                songObj.put("durl", d);
-                                jw.writeObject(songObj);
-                            }catch (Exception eee){
-                                eee.printStackTrace();
-                                songObj.put("name", "Playlist ID: " + s + " Failed");
-                                songObj.put("durl", "#");
-                                jw.writeObject(songObj);
-                            }
+
+                if(type.equals("song")){
+                    String[] info = getSongInfo(val);
+                    songObj.put("artist",info[2]);
+                    songObj.put("name", info[0]);
+                    songObj.put("durl",info[1]);
+                    jw.writeObject(songObj);
+                }else {
+                    List<Map<String, Object>> songsJSON = null;
+                    switch (type){
+                        case "playlist":
+                            songsJSON = ju.getPlayListBestMusic(val);
+                            break;
+                        case "album":
+                            songsJSON = ju.getAlbumBestMusic(val);
+                            break;
+                        case "artist":
+                            songsJSON = ju.getArtistBestMusic(val);
+                            break;
+                    }
+                    int listLen = songsJSON.size();
+                    listname = songsJSON.get(listLen - 1).get("listname").toString();
+                    songsJSON.remove(listLen - 1);
+                    for (Map<String, Object> j : songsJSON){
+                        String s = j.get("id").toString();
+                        String a = j.get("artist").toString();
+                        String n = j.get("name").toString();
+                        String e = j.get("extension").toString();
+                        String b = j.get("dfsId").toString();
+                        String d = au.getDownloadUrl(b, e);
+                        try{
+                            songObj.put("artist", a);
+                            songObj.put("name", n + "." + e);
+                            songObj.put("durl", d);
+                            jw.writeObject(songObj);
+                        }catch (Exception eee){
+                            eee.printStackTrace();
+                            songObj.put("name", "Playlist ID: " + s + " Failed");
+                            songObj.put("durl", "#");
+                            jw.writeObject(songObj);
                         }
-                        break;
-                    case "album":
-                        List<Map<String, Object>> albumJson = ju.getAlbumBestMusic(val);
-                        int albumLen = albumJson.size();
-                        listname = albumJson.get(albumLen - 1).get("listname").toString();
-                        albumJson.remove(albumLen - 1);
-                        for (Map<String, Object> j : albumJson){
-                            String s = j.get("id").toString();
-                            String a = j.get("artist").toString();
-                            String n = j.get("name").toString();
-                            String e = j.get("extension").toString();
-                            String b = j.get("dfsId").toString();
-                            String d = au.getDownloadUrl(b, e);
-                            try{
-                                songObj.put("artist", a);
-                                songObj.put("name", n + "." + e);
-                                songObj.put("durl", d);
-                                jw.writeObject(songObj);
-                            }catch (Exception eee){
-                                eee.printStackTrace();
-                                songObj.put("name", "Album ID: " + s + " Failed");
-                                songObj.put("durl", "#");
-                                jw.writeObject(songObj);
-                            }
-                        }
-                        break;
-                    case "artist":
-//                        List<Map<String, Object>> artistJson = ju.getArtistBestMusic(val);
-//                        int artistLen = artistJson.size();
-//                        listname = artistJson.get(artistLen - 1).get("listname").toString();
-//                        artistJson.remove(artistLen - 1);
-//                        for (Map<String, Object> j : artistJson){
-//                            String s = j.get("id").toString();
-//                            String a = j.get("artist").toString();
-//                            String n = j.get("name").toString();
-//                            String e = j.get("extension").toString();
-//                            String b = j.get("dfsId").toString();
-//                            String d = au.getDownloadUrl(b, e);
-//                            try{
-//                                songObj.put("artist", a);
-//                                songObj.put("name", n + "." + e);
-//                                songObj.put("durl", d);
-//                                jw.writeObject(songObj);
-//                            }catch (Exception eee){
-//                                eee.printStackTrace();
-//                                songObj.put("name", "Album ID: " + s + " Failed");
-//                                songObj.put("durl", "#");
-//                                jw.writeObject(songObj);
-//                            }
-//                        }
-                        break;
+                    }
                 }
             }catch (Exception e){
                 res = e.getMessage();
@@ -226,5 +166,32 @@ public class MainServlet extends HttpServlet {
         result[1] = durl;
         result[2] = artistName;
         return result;
+    }
+
+    public static void main(String[] args) {
+        ApiUtils au = new ApiUtils();
+        JsonUtils ju = new JsonUtils();
+        Map<String, Object> songObj = new TreeMap<>();
+        List<Map<String, Object>> songsJSON = ju.getArtistBestMusic("44266");
+        int listLen = songsJSON.size();
+        String listname = songsJSON.get(listLen - 1).get("listname").toString();
+        songsJSON.remove(listLen - 1);
+        for (Map<String, Object> j : songsJSON){
+            String s = j.get("id").toString();
+            String a = j.get("artist").toString();
+            String n = j.get("name").toString();
+            String e = j.get("extension").toString();
+            String b = j.get("dfsId").toString();
+            String d = au.getDownloadUrl(b, e);
+            try{
+                songObj.put("artist", a);
+                songObj.put("name", n + "." + e);
+                songObj.put("durl", d);
+            }catch (Exception eee){
+                eee.printStackTrace();
+                songObj.put("name", "Playlist ID: " + s + " Failed");
+                songObj.put("durl", "#");
+            }
+        }
     }
 }

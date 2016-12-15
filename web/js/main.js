@@ -205,7 +205,7 @@
 					method = "playlist";
 				}else if(val.indexOf("album") > -1){
 					method = "album";
-				}else if(val.indexOf("album") > -1){
+				}else if(val.indexOf("artist") > -1){
 					method = "artist";
 				}else{
 					alert("Auto detect failed, maybe specific it.");
