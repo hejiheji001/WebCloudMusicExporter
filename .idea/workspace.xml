@@ -7,45 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f93e8801-9926-46b4-b038-eff18d813c3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/META-INF/war-tracker" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/WEB-INF/classes/com/fireaway/h/main/MainServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/WEB-INF/classes/com/fireaway/h/main/MusicServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/WEB-INF/classes/com/fireaway/h/main/SetCharacterEncoding.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/WEB-INF/lib/CloudMusic.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/WEB-INF/lib/YunOffline.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/WEB-INF/lib/catalina.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/WEB-INF/lib/javax.servlet-api-3.1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/WEB-INF/lib/jboss-servlet-api_3.0_spec-1.0.1.Final-javadoc.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/WEB-INF/lib/jboss-servlet-api_3.0_spec-1.0.1.Final-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/WEB-INF/lib/jboss-servlet-api_3.0_spec-1.0.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/css/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/css/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/css/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/music.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/META-INF/context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/WEB-INF/catalina.policy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/WEB-INF/catalina.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/WEB-INF/context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/WEB-INF/logging.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/WEB-INF/server.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/WEB-INF/tomcat-users.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/WEB-INF/tomcat-users.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/css/bootstrap/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/css/bootstrap/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/css/bootstrap/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/css/bootstrap/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/css/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/js/bootstrap/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/js/bootstrap/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/js/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/js/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/js/jquery/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/cloudmusic/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebCloudMusicExporter.iws" />
@@ -180,9 +141,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1600" />
-    <option name="width" value="1600" />
-    <option name="height" value="900" />
+    <option name="x" value="-1608" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -287,7 +249,6 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration default="false" name="MainServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -940,7 +901,7 @@
       <workItem from="1481773886055" duration="1091000" />
       <workItem from="1481785406098" duration="614000" />
       <workItem from="1481788330807" duration="13000" />
-      <workItem from="1481790227971" duration="562000" />
+      <workItem from="1481790227971" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1458006172328</created>
@@ -1117,14 +1078,21 @@
       <option name="project" value="LOCAL" />
       <updated>1481790718577</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Support Artist">
+      <created>1481790818205</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1481790818205</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83818000" />
+    <option name="totallyTimeSpent" value="83859000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1600" y="0" width="1600" height="900" extended-state="6" />
+    <frame x="-1608" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1136,7 +1104,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55334115" sideWeight="0.68333334" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5519324" sideWeight="0.31666666" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61590296" sideWeight="0.31666666" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25791326" sideWeight="0.6336858" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
