@@ -7,25 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f93e8801-9926-46b4-b038-eff18d813c3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/lib/jboss-servlet-api_3.0_spec-1.0.1.Final-javadoc.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/lib/jboss-servlet-api_3.0_spec-1.0.1.Final-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/lib/jboss-servlet-api_3.0_spec-1.0.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/catalina.policy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/catalina.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/logging.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/server.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/tomcat-users.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/tomcat-users.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/CloudMusic.jar" afterPath="$PROJECT_DIR$/lib/CloudMusic.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/cloudmusic.war" afterPath="$PROJECT_DIR$/out/cloudmusic.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WebCloudMusicExporter/com/fireaway/h/main/MainServlet.class" afterPath="$PROJECT_DIR$/out/production/WebCloudMusicExporter/com/fireaway/h/main/MainServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/classes/com/fireaway/h/main/MainServlet.class" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/classes/com/fireaway/h/main/MainServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/lib/CloudMusic.jar" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/WEB-INF/lib/CloudMusic.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fireaway/h/main/MainServlet.java" afterPath="$PROJECT_DIR$/src/com/fireaway/h/main/MainServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat/webapps/ROOT/js/main.js" afterPath="$PROJECT_DIR$/tomcat/webapps/ROOT/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/main.js" afterPath="$PROJECT_DIR$/web/js/main.js" />
     </list>
     <ignored path="WebCloudMusicExporter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -919,7 +903,7 @@
       <workItem from="1481773886055" duration="1091000" />
       <workItem from="1481785406098" duration="614000" />
       <workItem from="1481788330807" duration="13000" />
-      <workItem from="1481790227971" duration="368000" />
+      <workItem from="1481790227971" duration="393000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1458006172328</created>
@@ -1075,11 +1059,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478453236825</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Support Artist">
+      <created>1481790610567</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1481790610567</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83624000" />
+    <option name="totallyTimeSpent" value="83649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1600" y="0" width="1600" height="900" extended-state="6" />
@@ -1132,7 +1123,8 @@
     <MESSAGE value="API Fix" />
     <MESSAGE value="Auto process" />
     <MESSAGE value="Fix export" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix export" />
+    <MESSAGE value="Support Artist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Support Artist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
