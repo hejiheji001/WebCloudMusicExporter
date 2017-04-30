@@ -1,14 +1,13 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="cloudmusic">
-    <output-path>$PROJECT_DIR$/out/artifacts/cloudmusic</output-path>
-    <root id="archive" name="cloudmusic.war">
+  <artifact type="exploded-war" name="WebCloudMusicExporter:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded</output-path>
+    <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="WebCloudMusicExporter" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="catalina" />
-          <element id="library" level="project" name="javax.servlet:javax.servlet-api:3.1.0" />
           <element id="file-copy" path="$PROJECT_DIR$/lib/CloudMusic.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/lib/YunOffline.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/lib/javax.servlet-api-3.1.0.jar" />
