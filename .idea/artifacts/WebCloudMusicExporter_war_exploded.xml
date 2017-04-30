@@ -1,21 +1,14 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="WebCloudMusicExporter:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/WebCloudMusicExporter_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/target/com.fireawayh.cloudmusic-1.0-snapshot</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="WebCloudMusicExporter" />
         </element>
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="catalina" />
-          <element id="file-copy" path="$PROJECT_DIR$/lib/CloudMusic.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/lib/YunOffline.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.servlet-api-3.1.0.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/lib/jboss-servlet-api_3.0_spec-1.0.1.Final.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/lib/jboss-servlet-api_3.0_spec-1.0.1.Final-javadoc.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/lib/jboss-servlet-api_3.0_spec-1.0.1.Final-sources.jar" />
-          <element id="library" level="project" name="AppEngine API" />
-        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/com.fireawayh.cloudmusic-1.0-snapshot/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="WebCloudMusicExporter/web/Web" />
     </root>
